@@ -1,0 +1,38 @@
+{
+  "candidates": 382,
+  "corpus": 288,
+  "eligible": 120,
+  "selected": 60,
+  "reserve": 60,
+  "outside_scope": 168,
+  "scenario_matrix": 2304,
+  "batches": {
+    "codex_chatgpt": {
+      "count": 40,
+      "min_words": 162,
+      "max_words": 179,
+      "outside_word_limit": [],
+      "usage": {
+        "input_tokens": 340688,
+        "output_tokens": 8220
+      },
+      "advice_matches_published_word": true
+    },
+    "api": {
+      "count": 40,
+      "min_words": 164,
+      "max_words": 179,
+      "outside_word_limit": [],
+      "usage": {
+        "input_tokens": 135540,
+        "output_tokens": 9427
+      },
+      "advice_matches_published_word": true
+    }
+  },
+  "limitations": [
+    "Recorded decision replay, not new source collection or independent semantic adjudication.",
+    "Historical outputs verified; no live inference performed. Future generations cannot be guaranteed identical.",
+    "Word documents copied from archived publication versions; visual layout not re-rendered."
+  ]
+}

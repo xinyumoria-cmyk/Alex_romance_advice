@@ -1,0 +1,8 @@
+{
+    "auth_status":  "codex.exe : Logged in using ChatGPT\r\nAt line:9 char:43\r\n+ ... ctionPreference=\u0027Continue\u0027;$login=(\u0026 $codex login status 2\u003e\u00261|Out-Str ...\r\n+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~\r\n    + CategoryInfo          : NotSpecified: (Logged in using ChatGPT:String) [], RemoteException\r\n    + FullyQualifiedErrorId : NativeCommandError",
+    "reasoning_effort":  "medium",
+    "runner_sha256":  "6E6C72BCB86FD692933820878675E25E1FE256B60FA0CF886C32BAE19C8935AB",
+    "started_utc":  "2026-09-30T13:27:26.5480742Z",
+    "cli_version":  "codex-cli 0.155.0-alpha.16.3",
+    "model_requested":  "gpt-6-astra"
+}

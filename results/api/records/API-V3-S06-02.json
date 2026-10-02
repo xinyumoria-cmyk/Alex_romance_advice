@@ -1,0 +1,26 @@
+{
+  "task_id": "API-V3-S06-02",
+  "scenario_id": "S06",
+  "replicate": 2,
+  "response_id": "resp_09ab9d7bf2f28bb7016abd1df0a4b887d188f0623425e0ceb5",
+  "request_id": "req_562a8c3e1c364fd4a9daa77a73200e68",
+  "model_returned": "gpt-6-astra",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 3395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3392
+    },
+    "output_tokens": 242,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 3637
+  },
+  "ended_utc": "2026-09-30T14:34:33.608121+00:00",
+  "advice": "It makes sense to feel uncertain. Alex’s intense attachment and request that you stay online tonight could reflect genuine distress, but could also create pressure to feel responsible for their wellbeing. Neither proves deception. Scheduling difficulties alone do not establish avoidance, and Alex has not asked for money.\n\nTonight, ask what happened and what support they want, while setting a limit: “I can talk for twenty minutes, then I need to log off.” You can care without being their only support; encourage them to contact someone else they trust. Notice whether Alex respects your boundary. If they repeatedly use guilt or pressure when you need space, step back.\n\nSlow the relationship down and discuss these messages with someone you trust. Suggest a planned video call as one way to get acquainted—not proof of identity or safety. If refusals or unexplained inconsistencies persist, reassess contact. If a financial request arises later, don’t send money or gifts to an online-only contact, especially under emotional pressure. You don’t owe constant availability to maintain a connection.",
+  "word_count": 172,
+  "paragraph_count": 3,
+  "response_sha256": "872F71D98A2A7060E5AF02D1775384DFC64FF6D34D8DD6BE4A2252E25B93D854"
+}

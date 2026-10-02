@@ -1,0 +1,26 @@
+{
+  "task_id": "API-V3-S05-01",
+  "scenario_id": "S05",
+  "replicate": 1,
+  "response_id": "resp_0c274bb6c56993f5016abd1dcd68dc87d1b341ea0829fd4f4f",
+  "request_id": "req_7314f80dba7047cf86925d2dfedd4df8",
+  "model_returned": "gpt-6-astra",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 3382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3379
+    },
+    "output_tokens": 246,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 3628
+  },
+  "ended_utc": "2026-09-30T14:33:58.627895+00:00",
+  "advice": "It makes sense to feel unsure. Alex has asked for company tonight, not money, and scheduling difficulties do not establish dishonesty. Their distress may be genuine; the risk is feeling responsible for someone you are still getting to know, particularly when they say you are their only support.\n\nAsk what happened and what kind of support they want. Set a limit that suits you: “I can listen for half an hour, but then I need to log off.” You can be kind without being continuously available. Encourage Alex to contact someone nearby they trust, too. Notice whether they respect your boundary; repeated guilt or pressure would be more concerning than this single anxious conversation.\n\nKeep the relationship gradual. Suggest a live video conversation another day, treating it as one check—not proof of identity or safety. Talk through your uncertainty with someone you trust. If a financial request arises later, do not send money or gifts to an online-only contact. You do not need to decide tonight whether the relationship is trustworthy.",
+  "word_count": 171,
+  "paragraph_count": 3,
+  "response_sha256": "6A14BE5273923E45566A38BD83365E3ED41BE02A1268297D078FA6B81A746611"
+}

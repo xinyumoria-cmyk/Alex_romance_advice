@@ -1,0 +1,94 @@
+{
+  "batch_id": "alex-api-reference-v3-s01-s02-2026-09-30",
+  "prepared_utc": "2026-09-30T14:23:26.449866+00:00",
+  "endpoint": "https://api.openai.com/v1/responses",
+  "model": "gpt-6-astra",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "max_output_tokens": 8192,
+  "store": false,
+  "reference_count": 60,
+  "reference_pack_sha256": "3016EA2830BB48945620B70233AB066E50D8E45838C21E890F1CB0C5A76D3C7A",
+  "inputs": {
+    "generation_instructions.txt": "E8E15243456479BE52B6863E1EE51F4E26B00EDF5C182044B7BE40D0685C662D",
+    "prompts/S01.txt": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5",
+    "prompts/S02.txt": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2"
+  },
+  "tasks": [
+    {
+      "task_id": "API-V3-S01-05",
+      "scenario_id": "S01",
+      "replicate": 5,
+      "prompt_file": "prompts/S01.txt",
+      "prompt_sha256": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5"
+    },
+    {
+      "task_id": "API-V3-S02-04",
+      "scenario_id": "S02",
+      "replicate": 4,
+      "prompt_file": "prompts/S02.txt",
+      "prompt_sha256": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2"
+    },
+    {
+      "task_id": "API-V3-S01-02",
+      "scenario_id": "S01",
+      "replicate": 2,
+      "prompt_file": "prompts/S01.txt",
+      "prompt_sha256": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5"
+    },
+    {
+      "task_id": "API-V3-S01-03",
+      "scenario_id": "S01",
+      "replicate": 3,
+      "prompt_file": "prompts/S01.txt",
+      "prompt_sha256": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5"
+    },
+    {
+      "task_id": "API-V3-S02-05",
+      "scenario_id": "S02",
+      "replicate": 5,
+      "prompt_file": "prompts/S02.txt",
+      "prompt_sha256": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2"
+    },
+    {
+      "task_id": "API-V3-S01-04",
+      "scenario_id": "S01",
+      "replicate": 4,
+      "prompt_file": "prompts/S01.txt",
+      "prompt_sha256": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5"
+    },
+    {
+      "task_id": "API-V3-S02-01",
+      "scenario_id": "S02",
+      "replicate": 1,
+      "prompt_file": "prompts/S02.txt",
+      "prompt_sha256": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2"
+    },
+    {
+      "task_id": "API-V3-S01-01",
+      "scenario_id": "S01",
+      "replicate": 1,
+      "prompt_file": "prompts/S01.txt",
+      "prompt_sha256": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5"
+    },
+    {
+      "task_id": "API-V3-S02-02",
+      "scenario_id": "S02",
+      "replicate": 2,
+      "prompt_file": "prompts/S02.txt",
+      "prompt_sha256": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2"
+    },
+    {
+      "task_id": "API-V3-S02-03",
+      "scenario_id": "S02",
+      "replicate": 3,
+      "prompt_file": "prompts/S02.txt",
+      "prompt_sha256": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2"
+    }
+  ],
+  "expected": 10,
+  "policy": "Ten independent calls; no history, tools, or automatic retries. Keep first output including failures and incomplete outputs. No rewriting or selection.",
+  "authorization": "User explicitly requested S01 and S02, five responses each, using supplied OpenAI API key.",
+  "source_interface": "OpenAI Responses API; separate from historical Codex CLI outputs"
+}

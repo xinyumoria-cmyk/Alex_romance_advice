@@ -1,0 +1,246 @@
+{
+  "review_date": "2026-09-18",
+  "reviewer": "AI assistant; no independent human coding",
+  "unit_definition_zh": "一个可执行行动或可识别风险线索，保留会影响执行方式的条件；不是一种完全独立的大策略。",
+  "decision_rule_zh": "行动、对象和适用条件实质相同则合并；只换措辞、平台示例或资料字段不另计。工具使用边界尽量纳入同一条。",
+  "aliases": [
+    {
+      "from": "reverse_image_multiple",
+      "to": "reverse_image",
+      "reason_zh": "同为反向搜图核查；图片数量和搜索服务数量属于操作细节。"
+    },
+    {
+      "from": "destiny_early",
+      "to": "love_bomb_warning",
+      "reason_zh": "命中注定的早期表白属于快速情感推进，不另计。"
+    },
+    {
+      "from": "device_incident_help",
+      "to": "trusted_technical_help",
+      "reason_zh": "同为设备遭入侵后寻求可信专业技术协助。"
+    },
+    {
+      "from": "copy_link_mobile",
+      "to": "save_content_urls",
+      "reason_zh": "复制链接是保存内容地址的操作方式。"
+    },
+    {
+      "from": "save_content_urls",
+      "to": "preserve_profile",
+      "reason_zh": "链接、时间和账号标识是同一通信证据包的组成部分。"
+    },
+    {
+      "from": "preserve_correspondence",
+      "to": "preserve_profile",
+      "reason_zh": "聊天记录与个人资料属于同一关系通信证据包。"
+    },
+    {
+      "from": "preserve_offender_identifiers",
+      "to": "preserve_profile",
+      "reason_zh": "联系标识属于同一关系通信证据包。"
+    },
+    {
+      "from": "preserve_threats",
+      "to": "preserve_profile",
+      "reason_zh": "威胁内容在证据包中保留，不按通信内容另算一条。"
+    },
+    {
+      "from": "evidence_before_block",
+      "to": "preserve_profile",
+      "reason_zh": "同为在屏蔽前留存关系通信证据；保留先后顺序。"
+    },
+    {
+      "from": "record_pattern_context",
+      "to": "preserve_profile",
+      "reason_zh": "重复事件和背景在通信证据包中记录，不拆分计数。"
+    },
+    {
+      "from": "preserve_wallet_addresses",
+      "to": "preserve_transaction_details",
+      "reason_zh": "钱包地址属于支付证据，与日期、金额和交易标识一起保存。"
+    },
+    {
+      "from": "report_money_request",
+      "to": "report_platform",
+      "reason_zh": "同为向认识对方的平台报告可疑账号或行为。"
+    },
+    {
+      "from": "posted_intimate_report",
+      "to": "adult_image_abuse_report",
+      "reason_zh": "已发布私密影像的平台报告属于影像滥用报告的同一行动。"
+    },
+    {
+      "from": "respect_adult_agency",
+      "to": "victim_next_steps_choice",
+      "reason_zh": "同为尊重受助成年人的下一步选择。"
+    },
+    {
+      "from": "separate_emotion_decision",
+      "to": "pause_before_sharing",
+      "reason_zh": "同为在情绪或压力下延缓付款和信息披露。"
+    },
+    {
+      "from": "no_middleman_payment",
+      "to": "no_money_unmet",
+      "reason_zh": "通过中间人付款不改变不给未见面恋爱对象款物的核心行动。"
+    },
+    {
+      "from": "no_gift_codes",
+      "to": "no_money_unmet",
+      "reason_zh": "礼品卡代码属于向未核实对象提供款物的支付形式。"
+    },
+    {
+      "from": "no_contact_directed_crypto_account",
+      "to": "no_online_romance_investment",
+      "reason_zh": "在陌生恋爱对象指引下开立并注资账户属于投资行为。"
+    },
+    {
+      "from": "crypto_email_link_warning",
+      "to": "authenticate_links",
+      "reason_zh": "同为独立核实投资或加密平台链接。"
+    },
+    {
+      "from": "strong_passphrase",
+      "to": "unique_passwords",
+      "reason_zh": "长随机口令是强且独立密码的实现方式。"
+    },
+    {
+      "from": "mirrored_life_events",
+      "to": "mirrored_interests",
+      "reason_zh": "兴趣和人生经历的模仿同属制造虚假相似性。"
+    },
+    {
+      "from": "military_contract_buyout",
+      "to": "military_leave_fee",
+      "reason_zh": "军方退役、请假和待遇费用均为同类假冒军人的收费借口。"
+    },
+    {
+      "from": "military_health_fee",
+      "to": "military_leave_fee",
+      "reason_zh": "军方待遇费用并入假冒军人的收费借口，保留具体例子。"
+    },
+    {
+      "from": "leave_private_pressure",
+      "to": "leave_uncomfortable_meeting",
+      "reason_zh": "被要求转到私密地点是结束不安全会面的条件之一。"
+    },
+    {
+      "from": "no_government_id_number",
+      "to": "no_identity_documents",
+      "reason_zh": "证件号码与证件文件属于同类身份凭证披露。"
+    },
+    {
+      "from": "hash_coverage_limits",
+      "to": "adult_hash_prevention",
+      "reason_zh": "工具覆盖范围并入使用影像哈希服务的边界条件。"
+    },
+    {
+      "from": "romance_not_investment_expertise",
+      "to": "no_online_romance_investment",
+      "reason_zh": "同为不以恋爱信任作为接受投资指引的根据。"
+    },
+    {
+      "from": "refuses_live_verification",
+      "to": "repeated_meeting_excuses",
+      "reason_zh": "持续回避会面或实时核查属于同一身份核验障碍。"
+    },
+    {
+      "from": "search_name_scam",
+      "to": "search_job_scam",
+      "reason_zh": "合并：均为用人物信息加诈骗词检索已报道骗局；姓名和职业作为查询变体保留。"
+    },
+    {
+      "from": "no_replacement_mule_account",
+      "to": "no_accounts_for_contact",
+      "reason_zh": "合并：补开账户仍是为可疑联系人开立账户，银行已警告作为具体条件保留。"
+    },
+    {
+      "from": "limit_cross_account_access",
+      "to": "unlink_social_accounts",
+      "reason_zh": "合并：均为限制约会关系与个人社交账号网络的连接与可见范围。"
+    }
+  ],
+  "excluded_keys": [
+    {
+      "key": "loss_limit_plan",
+      "reason_zh": "一般合法投资的风险预算，和恋爱诈骗防范关系过弱，排除。"
+    }
+  ],
+  "retained_distinctions": [
+    {
+      "keys": [
+        "stop_contact_suspected",
+        "pause_contact_check",
+        "recontact_block"
+      ],
+      "reason_zh": "分别是怀疑诈骗后结束关系、核验期间暂缓联系、阻断再次联系，行动阶段不同。"
+    },
+    {
+      "keys": [
+        "bank_recall",
+        "card_dispute",
+        "wire_provider_recall",
+        "payment_app_dispute",
+        "gift_card_issuer_help",
+        "crypto_provider_report",
+        "money_order_stop"
+      ],
+      "reason_zh": "总的原则与不同支付渠道的具体受理方或处理程序分别保留；不宣称这些是相互独立的大策略。"
+    },
+    {
+      "keys": [
+        "profile_history_check",
+        "cross_platform_check",
+        "reverse_image",
+        "search_message_phrases"
+      ],
+      "reason_zh": "核查对象分别为账号历史、跨账号一致性、图像身份和文字脚本；执行动作不同。"
+    },
+    {
+      "keys": [
+        "check_account_activity",
+        "email_forwarding_check",
+        "sign_out_all_devices",
+        "check_recovery_contacts"
+      ],
+      "reason_zh": "一般异常检查、转发规则清理、会话撤销与恢复凭据修复属于不同安全操作。"
+    },
+    {
+      "keys": [
+        "video_screen_not_guarantee",
+        "live_video_not_proof"
+      ],
+      "reason_zh": "前者建议在见面前进行筛查，后者说明实时视频也可能伪造；使用步骤与证据局限不同。"
+    },
+    {
+      "keys": [
+        "no_bank_details",
+        "no_banking_credentials",
+        "no_otp_sharing",
+        "keep_seed_phrase_private"
+      ],
+      "reason_zh": "支付信息、登录凭据、动态验证码、钱包恢复密钥涉及不同权限与保护操作。"
+    },
+    {
+      "keys": [
+        "let_evidence_process",
+        "readiness_to_talk",
+        "individual_recovery_pace"
+      ],
+      "reason_zh": "分别对应允许接收证据、尊重拒绝谈话、支持受骗后的恢复进程。"
+    },
+    {
+      "keys": [
+        "hash_edited_variants",
+        "hash_video_stills",
+        "hash_additional_images"
+      ],
+      "reason_zh": "分别应对修改版本、视频与缩略图格式差异、新增文件无法加入旧案件的不同工具限制。"
+    }
+  ],
+  "lexical_pair_review": {
+    "pairs_reviewed": 42,
+    "additional_merges": 3,
+    "method": "Token-IDF cosine >= 0.28; lexical retrieval only, not embedding similarity"
+  }
+}

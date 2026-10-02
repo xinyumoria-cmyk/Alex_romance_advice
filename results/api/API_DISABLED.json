@@ -1,0 +1,8 @@
+{
+  "disabled": true,
+  "requested_on": "2026-09-30",
+  "reason": "User requested that API key use stop.",
+  "scope": "Local API generation runner. No further use of the supplied key is authorized.",
+  "provider_revocation": "Not performed. Account owner must revoke the key in the OpenAI API dashboard.",
+  "key_storage": "The generation runner did not persist the key to project files."
+}

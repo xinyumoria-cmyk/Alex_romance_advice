@@ -1,0 +1,22 @@
+{
+  "reverse_image": "Reverse-search supplied photographs, using additional images or search services to check conflicting identities.",
+  "love_bomb_warning": "Notice unusually rapid declarations of love, destiny or intensive attention before trust is established.",
+  "trusted_technical_help": "Seek help from a trusted technician, device manufacturer or incident-response service after device compromise.",
+  "preserve_profile": "Before blocking, save profiles, messages and threats with identifiers, content links, dates and the pattern of events.",
+  "preserve_transaction_details": "Retain payment dates, amounts, methods and recipient details; for cryptocurrency also record addresses, asset type and transaction hashes.",
+  "report_platform": "Report suspicious accounts, money requests or scam behaviour to the dating or social platform.",
+  "adult_image_abuse_report": "Report intimate-image abuse to the hosting platform and, where applicable, the relevant specialist regulator.",
+  "victim_next_steps_choice": "Ask what the affected adult wants to do next, offering information and support without forcing their decision.",
+  "pause_before_sharing": "Pause emotional or pressured decisions before sending money or sharing personal information.",
+  "no_money_unmet": "Do not send money, gifts or gift-card codes to an online-only romantic contact, including through an intermediary.",
+  "no_online_romance_investment": "Do not invest or fund new crypto accounts on an online-only romantic contact's instructions; romantic trust does not establish expertise.",
+  "authenticate_links": "Independently verify investment and crypto-service links, including account-approval messages and links supplied by familiar contacts.",
+  "unique_passwords": "Use strong, unique account passwords, such as long random-word passphrases rather than familiar quotations.",
+  "mirrored_interests": "Be cautious when a stranger mirrors your interests or life experiences; apparent similarity does not establish authenticity.",
+  "military_leave_fee": "Question requests to finance a supposed US soldier's leave, contract buyout, retirement or military health benefits.",
+  "leave_uncomfortable_meeting": "Leave an uncomfortable date, including pressure to move somewhere private; seek venue staff help if needed.",
+  "no_identity_documents": "Keep identity documents and government identification numbers from unverified online romantic contacts.",
+  "adult_hash_prevention": "For eligible adult intimate images, consider StopNCII hashing; coverage is limited to participating platforms, not the whole internet or encrypted chats.",
+  "repeated_meeting_excuses": "Take persistent excuses for avoiding meetings or live identity checks seriously.",
+  "email_forwarding_check": "Check for unauthorized email-forwarding rules and remove any you did not create."
+}

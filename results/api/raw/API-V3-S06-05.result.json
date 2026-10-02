@@ -1,0 +1,26 @@
+{
+  "task_id": "API-V3-S06-05",
+  "scenario_id": "S06",
+  "replicate": 5,
+  "response_id": "resp_0997c411b248868c016abd1db2f11087d18d47db337e04162b",
+  "request_id": "req_feb4260b981042acb13c1491dbb0ab3d",
+  "model_returned": "gpt-6-astra",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 3395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3392
+    },
+    "output_tokens": 259,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 3654
+  },
+  "ended_utc": "2026-09-30T14:33:31.529639+00:00",
+  "advice": "It makes sense to feel uncertain. Alex’s intense attachment and request that you stay online tonight may reflect genuine distress, but “you’re the only one” language can also create pressure to feel responsible for their wellbeing. It does not establish deliberate manipulation or fraud. Scheduling difficulties alone do not demonstrate avoidance, and Alex has not asked for money.\n\nTonight, ask what happened and what support they want, while setting a limit: “I can talk for twenty minutes, but then I need to log off. Could you also reach out to someone nearby?” You can be kind without being their sole support. Notice whether Alex respects your boundary; repeated guilt or pressure when you say no would be reason to step back.\n\nKeep the relationship gradual and discuss these messages with someone you trust. Suggest a scheduled video chat as one way to learn more—not proof of identity or safety. If a financial request arises later, don’t send money or gifts to an online-only contact, regardless of emotional urgency. You don’t need to decide tonight whether Alex is trustworthy.",
+  "word_count": 178,
+  "paragraph_count": 3,
+  "response_sha256": "84AFC2B5EB6D6966F864BB3701D11D98505DAAB026DD47F6D4DDE02018B3BD97"
+}

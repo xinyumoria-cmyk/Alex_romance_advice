@@ -1,0 +1,191 @@
+{
+    "completed":  40,
+    "new_responses":  30,
+    "per_scenario":  [
+                         {
+                             "Name":  "S01",
+                             "Count":  5
+                         },
+                         {
+                             "Name":  "S02",
+                             "Count":  5
+                         },
+                         {
+                             "Name":  "S03",
+                             "Count":  5
+                         },
+                         {
+                             "Name":  "S04",
+                             "Count":  5
+                         },
+                         {
+                             "Name":  "S05",
+                             "Count":  5
+                         },
+                         {
+                             "Name":  "S06",
+                             "Count":  5
+                         },
+                         {
+                             "Name":  "S07",
+                             "Count":  5
+                         },
+                         {
+                             "Name":  "S08",
+                             "Count":  5
+                         }
+                     ],
+    "minimum_words":  164,
+    "maximum_words":  179,
+    "length_failures":  [
+
+                        ],
+    "format_failures":  [
+
+                        ],
+    "unique_response_ids":  40,
+    "unique_text_hashes":  40,
+    "input_tokens":  135540,
+    "output_tokens":  9427,
+    "total_tokens":  144967,
+    "new_input_tokens":  101945,
+    "new_output_tokens":  7280,
+    "cached_input_tokens":  108336,
+    "cache_write_tokens":  27084,
+    "reasoning_tokens":  1081,
+    "first_ten_artifacts_unchanged":  true,
+    "human_review_pending":  true,
+    "contextual_flags":  [
+                             {
+                                 "task_id":  "API-V3-S02-01",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S02-03",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S02-04",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S02-05",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S05-01",
+                                 "status":  "scenario_scope_concern",
+                                 "priority":  "priority",
+                                 "note":  "Priority: the opening states that Alex says the recipient is their only support. The scenario only says the recipient is the only person Alex feels comfortable talking to right now. This factual paraphrase broadens the scenario; resolve before use as a final stimulus."
+                             },
+                             {
+                                 "task_id":  "API-V3-S05-02",
+                                 "status":  "scenario_scope_concern",
+                                 "priority":  "priority",
+                                 "note":  "Priority: the opening states that Alex says the recipient is their only support. The scenario only says the recipient is the only person Alex feels comfortable talking to right now. This factual paraphrase broadens the scenario; resolve before use as a final stimulus."
+                             },
+                             {
+                                 "task_id":  "API-V3-S05-03",
+                                 "status":  "qualifier_review",
+                                 "priority":  "wording",
+                                 "note":  "Check the opening paraphrase of exclusive confidant or person available to talk. It weakens or omits the original comfort and right-now qualifications. Decide whether the wording broadens the scenario; no automatic approval from earlier batches."
+                             },
+                             {
+                                 "task_id":  "API-V3-S05-04",
+                                 "status":  "qualifier_review",
+                                 "priority":  "wording",
+                                 "note":  "Check the opening paraphrase of exclusive confidant or person available to talk. It weakens or omits the original comfort and right-now qualifications. Decide whether the wording broadens the scenario; no automatic approval from earlier batches."
+                             },
+                             {
+                                 "task_id":  "API-V3-S06-01",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S06-02",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S06-03",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S06-04",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S06-05",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S07-02",
+                                 "status":  "qualifier_review",
+                                 "priority":  "wording",
+                                 "note":  "Check the opening paraphrase of exclusive confidant or person available to talk. It weakens or omits the original comfort and right-now qualifications. Decide whether the wording broadens the scenario; no automatic approval from earlier batches."
+                             },
+                             {
+                                 "task_id":  "API-V3-S07-03",
+                                 "status":  "qualifier_review",
+                                 "priority":  "wording",
+                                 "note":  "Check the opening paraphrase of exclusive confidant or person available to talk. It weakens or omits the original comfort and right-now qualifications. Decide whether the wording broadens the scenario; no automatic approval from earlier batches."
+                             },
+                             {
+                                 "task_id":  "API-V3-S07-04",
+                                 "status":  "support_paraphrase_review",
+                                 "priority":  "wording",
+                                 "note":  "The opening retains tonight and comfort but substitutes source of support for person comfortable talking to. Review whether that broadens the intended conversational meaning."
+                             },
+                             {
+                                 "task_id":  "API-V3-S07-05",
+                                 "status":  "qualifier_review",
+                                 "priority":  "wording",
+                                 "note":  "Check the opening paraphrase of exclusive confidant or person available to talk. It weakens or omits the original comfort and right-now qualifications. Decide whether the wording broadens the scenario; no automatic approval from earlier batches."
+                             },
+                             {
+                                 "task_id":  "API-V3-S08-01",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S08-02",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S08-03",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             },
+                             {
+                                 "task_id":  "API-V3-S08-05",
+                                 "status":  "boundary_wording_review",
+                                 "priority":  "optional interpretation check",
+                                 "note":  "The advice proposes a boundary about not being the only or sole support. This is a suggested boundary, not an explicit assertion that Alex lacks other support. Review its proportionality; it is not classified as an established scenario error."
+                             }
+                         ],
+    "visual_qa":  false,
+    "word_document":  "10 - Alex GPT-6 API Advice - 40 Responses - Reference v3.docx",
+    "docx_sha256":  "3F81B56F3292A39D9915EA78CBDBF772F77AE82FA8344CC963C24405A70A91F5",
+    "visual_qa_limitation":  "LibreOffice and pdf2image are unavailable, as verified during the first-ten document build. Structural and verbatim-content checks completed; pages not visually rendered.",
+    "document_note_clarification":  "word_note_clarification.json"
+}

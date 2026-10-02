@@ -1,0 +1,26 @@
+{
+  "task_id": "API-V3-S04-04",
+  "scenario_id": "S04",
+  "replicate": 4,
+  "response_id": "resp_0574ad7dc7c00e25016abd1d3b4a3087d18aa0319c33dc57aa",
+  "request_id": "req_e5ac1d2e61a2450fa627223c781313ff",
+  "model_returned": "gpt-6-astra",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 3395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3392
+    },
+    "output_tokens": 251,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 3646
+  },
+  "ended_utc": "2026-09-30T14:31:32.432550+00:00",
+  "advice": "It makes sense to feel unsure. After six weeks without meeting, Alex has asked for money and expressed intense dependence on your connection. That combination warrants caution: it can occur in romance scams or create emotional pressure, but it does not establish deception. Work and travel constraints could be genuine; they are not proof of avoidance.\n\nFor now, don’t send money. You can say, “I enjoy talking with you, but I don’t lend or give money to someone I haven’t met.” A repayment promise does not protect you from financial loss, and you are not responsible for solving Alex’s finances or preventing their disappointment. Talk through the request with someone you trust before reconsidering anything.\n\nSlow the pace and suggest a live video conversation as one limited check—not proof of identity or trustworthiness. Notice how Alex responds to your boundary over time. If they repeatedly ask for money, use guilt, or become hostile when you say no, step back and consider ending contact. You can remain compassionate without taking financial risks.",
+  "word_count": 171,
+  "paragraph_count": 3,
+  "response_sha256": "EB55AC6B8390DEBF547CCDB4B45083868F5E8B0F9871B361234C93D7F58E3D35"
+}

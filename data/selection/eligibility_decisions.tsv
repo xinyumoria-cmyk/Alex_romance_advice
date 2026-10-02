@@ -1,0 +1,289 @@
+id|rule|domain|prompt|reason|guard
+ADV0001|MONEY|money|use|An online-only relationship and a possible or actual financial request make a money boundary relevant.|Without a stated request, frame this as a future boundary; no payment or gift is assumed.
+ADV0002|C|escalation|use|Stopping contact is a possible response if the recipient develops substantiated concerns, not a mandatory verdict now.|Use an if-suspicion-increases condition; do not declare Alex fraudulent or require immediate separation.
+ADV0003|D|support|use|An independent trusted perspective can help with the uncertainty already described.|Do not assume the recipient has been isolated or that a confidant can prove fraud.
+ADV0004|C|verification|use|Checking a supplied name or occupation can inform identity assessment if usable details are available.|Only check details actually supplied; reported similarities are not conclusive evidence.
+ADV0005|C|verification|use|Photo checks are relevant to an online-only identity but the scenario does not expressly provide photographs.|If photographs are available; do not assert a match or promise reliable identification.
+ADV0006|N|recovery|out|Reversal or reimbursement requires a payment already made; none is described.|-
+ADV0007|C|escalation|reserve|Reporting suspected fraud need not require financial loss, but the current ambiguous facts do not establish a reportable scam.|If concerns warrant reporting, use a current US-appropriate official route; do not claim victimization is established.
+ADV0008|C|escalation|use|A platform report can be considered if suspicious conduct is identified, including without prior payment.|Keep reporting conditional and use the platform actually involved; a loan request alone is not proof of fraud.
+ADV0009|C|money|use|Payment pressure is a relevant warning to monitor around possible financial requests.|Urgent conversation is not urgent payment; do not claim a payment method or deadline was specified.
+ADV0010|D|privacy|use|Limiting publicly exposed personal information is preventive protection during an existing online relationship.|Do not imply theft, exposure of particular information, or wrongdoing has already occurred.
+ADV0011|D|relationship|use|Taking time and asking questions addresses a six-week relationship with unresolved identity and meeting information.|Ask proportionate questions without inventing contradictory answers.
+ADV0012|D|relationship|use|The move from the dating app to private messaging is explicitly stated in every version.|Treat the move as context for caution, not proof that Alex forced it or is dishonest.
+ADV0013|C|relationship|use|Pressure to give up outside relationships is a relevant prospective relational boundary.|Exclusive emotional language is not proof of actual isolation; use if such pressure develops.
+ADV0014|D|privacy|use|A boundary on sharing intimate media can be stated preventively before any sexual request or image exchange.|Do not introduce an existing sexual request, leaked image, or blackmail incident.
+ADV0015|C|verification|use|A future pattern of avoiding contact checks could matter; the current text states only an unmet meeting plan.|Say if delays or refusals persist; do not turn scheduling constraints into demonstrated avoidance.
+ADV0016|C|escalation|reserve|An official cybercrime report may become appropriate if the recipient identifies suspected internet crime.|Do not frame the present ambiguous relationship as confirmed victimization; verify the US reporting route before use.
+ADV0017|EMOTION|relationship|use|High-intensity declarations closely match the stronger emotional version; future monitoring remains relevant in lower-intensity versions.|Distinguish Alex's expressed attachment from the recipient's feelings; intensity alone does not prove fraud.
+ADV0018|C|relationship|use|Secrecy or exclusive-trust demands are potential warning signs in a developing online relationship.|No secrecy demand is stated; present only as a condition to watch for.
+ADV0019|C|relationship|use|Reactions to reasonable questions or boundaries can inform subsequent decisions.|Losing someone would be devastating is not itself an explicit breakup threat; do not invent anger.
+ADV0020|D|privacy|use|Keeping identity documents private is a preventive boundary that does not require an existing request.|Do not claim Alex asked for documents; do not propose exchanging documents as a verification task.
+ADV0021|D|privacy|use|Keeping payment-account information private is relevant before any transfer or disclosure.|Alex has not requested bank or card details; describe a continuing boundary.
+ADV0022|C|money|reserve|Using the recipient's account to move funds is a prospective financial boundary, although no such request is described.|Only if asked to receive or transfer someone else's funds; do not assert money-mule involvement now.
+ADV0023|C|verification|use|Available dating-profile information may be checked without presuming that it contains suspicious features.|If a profile remains accessible, inspect it; do not invent a sparse or newly created profile.
+ADV0024|C|money|reserve|A distress story can be monitored for an implied financial request, especially when urgency is described.|Do not infer that work stress is a fabricated emergency or that Alex has implicitly requested money.
+ADV0025|C|relationship|use|A recipient can monitor whether guilt is used to discourage questions or boundaries.|High expressed dependence alone does not establish deliberate guilt induction or manipulation.
+ADV0026|C|verification|reserve|Independent corroboration matters if Alex later introduces another person as evidence.|No relative or professional has been introduced; present only as a conditional verification limitation.
+ADV0027|MONEY|money|use|Not borrowing for an unverified romantic contact is directly relevant to a money request and a future financial boundary otherwise.|No borrowing has occurred; avoid assuming the recipient lacks money or owns assets.
+ADV0028|N|unrelated_request|out|Parcel forwarding is a separate transaction not present or needed for the current relationship decision.|-
+ADV0029|C|money|reserve|Independent bank contact may be useful if the recipient seeks advice about a contemplated transfer.|Do not instruct recovery or imply an account is compromised; no specific bank is known.
+ADV0030|N|recovery|out|The item addresses unfamiliar bills and identity misuse, neither of which is reported.|-
+ADV0031|N|recovery|out|Victim-support access without a police report concerns a victimization stage not established here.|-
+ADV0032|C|delivery|reserve|Avoiding blame can inform adviser tone if fraud is discussed hypothetically; it is not evidence of current victimization.|Use as a nonjudgmental communication principle only; do not call Alex an offender or the recipient a victim.
+ADV0033|C|verification|use|A search can be considered when distinctive messages are available to check.|No copied script is established; a search result or absence of one is not a verdict.
+ADV0034|N|recovery|out|Renewed contact after a break or block is not described; this is a later-stage response.|-
+ADV0035|N|escalation|out|Physical confrontation and an identified suspected offender are not part of the current decision.|-
+ADV0036|C|escalation|use|Preserving available messages is applicable if reporting or blocking becomes appropriate, even without financial loss.|Do not invent threats or images; preserve only existing communications and identifiers.
+ADV0037|N|recovery|out|The original advice is framed specifically after a scam; preventive privacy is separately retained without assuming victimization.|-
+ADV0038|N|recovery|out|Recontact after an earlier scam is not part of the stated relationship history.|-
+ADV0039|N|recovery|out|Post-victimization caller screening requires a later recovery or recontact context.|-
+ADV0040|N|recovery|out|Replacing an exposed number requires an exposure concern not established by private messaging alone.|-
+ADV0041|N|recovery|out|Credit freezes after account misuse address an unreported loss or identity-compromise stage.|-
+ADV0042|N|recovery|out|Checking for accounts opened by an offender presupposes an identity-misuse concern outside the present facts.|-
+ADV0043|N|unrelated_request|out|No mail-based fraud, mailed payment, or postal transaction is described.|-
+ADV0044|MONEY|money|use|Independent consideration before a financial decision is directly relevant where a loan is requested and prospective otherwise.|Do not equate a request to stay online tonight with a payment deadline.
+ADV0045|C|platform|reserve|Privacy controls may inform a decision to continue using or return to a dating service.|The platform is unspecified and already chosen; do not assume particular controls exist.
+ADV0046|C|platform|reserve|Messaging-permission settings may be relevant when reviewing the existing dating service.|Do not assume messages were unsolicited or that the platform lacks permission controls.
+ADV0047|D|privacy|use|Protecting precise location is a preventive boundary for an online-only contact.|Do not claim Alex knows an address or location has already been exposed.
+ADV0048|C|platform|use|Knowing available blocking and reporting controls supports a proportionate response if concerns increase.|Check the actual platform's features; do not imply that a report must be filed now.
+ADV0049|C|verification|use|A verification badge is only relevant if one is present or encountered during profile checks.|No badge is described; do not equate a badge or its absence with a fraud verdict.
+ADV0050|C|platform|use|In-app calling may help assess identity while limiting number disclosure if supported.|The feature may not exist; do not assume a phone number was shared or that a call has been refused.
+ADV0051|C|platform|reserve|Reviewing service privacy practices is preventive background rather than a response to an Alex-specific cue.|Refer to the actual service policy; do not invent its data-sharing practices.
+ADV0052|C|privacy|reserve|Reducing identifying profile details remains possible if the recipient controls the profile.|Do not assume the existing profile exposes a full name or that Alex knows it.
+ADV0053|C|privacy|reserve|Separate profile photographs can limit cross-platform discovery if photos are used.|No reused photographs are stated; frame as a profile-privacy option.
+ADV0054|D|privacy|use|Maintaining boundaries between dating contacts and wider personal accounts is preventive and currently relevant.|Do not assume the accounts are linked or instruct deletion of evidence.
+ADV0055|C|digital|reserve|Multifactor authentication is preventive account protection if the dating service offers it.|Do not imply an account compromise or guarantee that authentication prevents relationship fraud.
+ADV0056|D|digital|reserve|Strong unique passwords support the accounts used for online communication without needing a breach.|General security background; do not present it as verification of Alex.
+ADV0057|D|relationship|use|The recipient can set boundaries or decline requests at any point in the relationship.|Do not presume a coercive request exists in low-pressure versions.
+ADV0058|D|platform|use|Safer platform communication may be reconsidered after the stated move to private messaging.|Acknowledge that the move already occurred; returning to the app does not prove safety.
+ADV0059|C|delivery|use|Acknowledging feelings can inform the advice's tone without requiring proof of fraud.|Apply as an adviser communication principle; do not assume the recipient reciprocates Alex's feelings or is a victim.
+ADV0060|N|recovery|out|The item specifically describes grief and injury alongside financial loss, neither established here.|-
+ADV0061|N|support_role|out|Preparing a supporter to advise a victim about recovery is outside the recipient's current decision.|-
+ADV0062|N|support_role|out|Reversing another person's established isolation assumes a supporter role and an unreported state.|-
+ADV0063|N|support_role|out|Checking an offender's knowledge of a victim's details assumes victim-support assessment; preventive privacy is retained separately.|-
+ADV0064|N|support_role|out|Organizing another person's evidence and bank dealings requires a supporter role and an incident response.|-
+ADV0065|N|support_role|out|Stopping ongoing losses while supporting denial assumes losses and a supporter intervention not described.|-
+ADV0066|N|recovery|out|Repeat targeting after victimization concerns a later stage not present in the Alex scenario.|-
+ADV0067|C|delivery|reserve|Allowing autonomy and time can inform advice about disengagement if the recipient chooses it.|No breakup or confirmed fraud is required; do not prescribe delay where immediate danger is stated in a future case.
+ADV0068|N|support_role|out|Case updates require an existing investigation or support case, neither of which exists here.|-
+ADV0069|N|support_role|out|Explaining case-specific legal, financial, and emotional services is a victim-support task beyond present uncertainty.|-
+ADV0070|C|digital|use|Unknown links and attachments are plausible future contact-channel risks, not evidence of a current attack.|Only if such material is sent; do not claim Alex has sent a malicious file.
+ADV0071|C|verification|reserve|External paid verification can arise during identity checks and is a relevant conditional caution.|No verification site has been suggested; do not send the recipient to a paid checker.
+ADV0072|N|recovery|out|Unfamiliar recurring charges require a subscription or payment concern that is not described.|-
+ADV0073|N|recovery|out|Replacing a compromised card is post-compromise response, not current relationship prevention.|-
+ADV0074|N|unrelated_request|out|A new paid service subscription is not the transaction under discussion.|-
+ADV0075|C|verification|reserve|Coercive outside verification requests are a possible check-related risk.|Mention only if a verification service is proposed; do not invent frightening messages from Alex.
+ADV0076|N|unrelated_request|out|News endorsements of a verification website require two additional specific facts absent from this case.|-
+ADV0077|D|support|reserve|Official fraud information can support the recipient's general understanding of online relationship risks.|Use as background learning, not as evidence that Alex matches a particular reported scam.
+ADV0078|C|money|reserve|A boundary against opening accounts for someone else is relevant if the relationship develops such a request.|No business, account-opening request, or bank warning exists in the scenario.
+ADV0079|C|verification|reserve|Platform membership can be interpreted cautiously when considering what is known about Alex.|Do not claim the actual platform performs or omits checks without evidence.
+ADV0080|C|verification|use|Consistency checks are relevant if concrete discrepancies emerge in information Alex provides.|No contradictory or grand story is currently stated; ask questions rather than inventing discrepancies.
+ADV0081|C|verification|use|Responses to reasonable identity questions can inform subsequent judgments.|Do not call Alex evasive before such answers are described.
+ADV0082|N|unrelated_request|out|A returning profile under a changed name is a specific identity-recycling event not described.|-
+ADV0083|N|recovery|out|Contacting a receiving bank requires an actual transfer; none has occurred in the scenario.|-
+ADV0084|N|investment|out|No investment, trading instruction, or crypto account is involved in the current decision.|-
+ADV0085|D|privacy|use|Keeping financial position private is a preventive boundary even without a request for financial details.|Do not invent a disclosure or imply that Alex already knows the recipient's finances.
+ADV0086|N|investment|out|An investment withdrawal has not occurred; this advice requires a distinct investment workflow.|-
+ADV0087|N|investment|out|Unlocking withdrawals assumes an investment and blocked funds absent here.|-
+ADV0088|N|investment|out|No investment website or customer-support interaction is described.|-
+ADV0089|N|investment|out|There is no investment offer or profit claim to evaluate.|-
+ADV0090|N|investment|out|Pressure about an exclusive investment differs from the stated conversational urgency.|-
+ADV0091|N|investment|out|Wallet permissions and mining certificates are outside the Alex relationship task.|-
+ADV0092|N|investment|out|No wallet connection or investment domain is present.|-
+ADV0093|N|investment|out|Checking investment-domain spelling requires an investment site not described here.|-
+ADV0094|N|investment|out|This item specifically concerns investment or crypto-service links; general link caution is retained separately.|-
+ADV0095|N|investment|out|Token allowances require a cryptocurrency wallet context that is absent.|-
+ADV0096|N|investment|out|No investment referral has been supplied by Alex or another contact.|-
+ADV0097|N|recovery|out|Transaction records and hashes require a payment already made.|-
+ADV0098|C|verification|reserve|Misaddressed messages can be monitored as potential inconsistencies in ongoing communication.|Do not invent a wrong name or treat a single typo as proof of fraud.
+ADV0099|N|investment|out|Crypto coaching is a separate relationship-investment development not present in any version.|-
+ADV0100|N|initial_contact|out|Avoiding unknown friend requests concerns initial contact; this relationship is already established through a dating app.|-
+ADV0101|N|investment|out|Revoking wallet access requires existing cryptocurrency permissions or compromise.|-
+ADV0102|N|initial_contact|out|Ignoring an unsolicited initial message does not fit an existing six-week dating-app relationship.|-
+ADV0103|N|investment|out|No investment proposal exists; general financial deliberation is already retained.|-
+ADV0104|N|investment|out|Investor testimonials require a trading proposal outside the scenario.|-
+ADV0105|N|investment|out|An investment app is not part of the case; dating-platform verification is covered separately.|-
+ADV0106|N|investment|out|Displayed investment profits or screenshots are not present.|-
+ADV0107|N|recovery|out|Fund-recovery services require an earlier loss and recovery stage.|-
+ADV0108|N|investment|out|Stopping additional investment payments assumes earlier payments and an investment scam.|-
+ADV0109|N|investment|out|A securities-regulator report requires an investment issue outside the scenario.|-
+ADV0110|N|unrelated_request|out|A meeting conditioned on raising or investing money is not stated; scheduling difficulties are not such a demand.|-
+ADV0111|C|relationship|reserve|Shared experiences may prompt the recipient to examine apparent similarity without presuming fabrication.|Do not claim Alex copied interests or supplied a false life story.
+ADV0112|N|support_role|out|Warning a referrer requires a suspicious platform referral and a third-party supporter role.|-
+ADV0113|N|investment|out|A matching investment contribution is not part of the financial-request manipulation.|-
+ADV0114|N|investment|out|Investment-site design and login security are outside the current relationship decision.|-
+ADV0115|N|identity_story|out|Alex has not claimed military service or requested military-related expenses.|-
+ADV0116|N|identity_story|out|No military identity or marriage-permission claim is stated.|-
+ADV0117|N|identity_story|out|A soldier's discovered treasure is an unrelated identity and financial story.|-
+ADV0118|N|identity_story|out|Uniform and rank checks require a military claim that is absent.|-
+ADV0119|N|unrelated_request|out|Access to a contact's bank account or displayed balance has not been offered.|-
+ADV0120|N|identity_story|out|A frozen-bank-account fee is a specific pretext not included in the generic loan request.|-
+ADV0121|D|privacy|covered:ADV0021|Bank-login secrecy is a distinct instance of the broader retained banking-information boundary.|Keep the original entry in the pool; no credential request or compromise is assumed.
+ADV0122|D|relationship|use|Pausing before sharing information or accepting requests is relevant to uncertainty in every scenario.|Refer to a future financial decision when no money request is stated.
+ADV0123|C|verification|reserve|An identity-selfie request is a possible verification-related privacy risk.|Only if asked; do not introduce an existing request or recommend sending identity documents.
+ADV0124|N|identity_story|out|No admission of fraud or post-confession reconciliation is described.|-
+ADV0125|C|support|covered:ADV0003|Requesting practical or emotional help can apply to the current uncertainty, despite the original recovery tag.|Discuss the relationship as stated; do not invent loss or confirmed deception.
+ADV0126|N|recovery|out|Professional help for financial and relationship grief presupposes distress after an unreported loss.|-
+ADV0127|N|recovery|out|The item addresses affected financial institutions after exposure, which is not described.|-
+ADV0128|N|recovery|out|Notifying credential issuers requires actual identity exposure.|-
+ADV0129|N|recovery|out|Retirement-account security after identity exposure is outside the current facts.|-
+ADV0130|N|recovery|out|Replacing exposed passwords or PINs assumes compromise; preventive credential boundaries are retained separately.|-
+ADV0131|N|recovery|out|Unauthorized forwarding rules indicate an account-compromise context absent here.|-
+ADV0132|N|recovery|out|A police report for identity misuse requires an identity-misuse incident.|-
+ADV0133|N|recovery|out|Device incident response requires a device compromise not described.|-
+ADV0134|C|money|use|Escalating financial demands are a pattern to monitor after a first request or if requests begin.|The scenario has at most one request; do not claim repeated or increasing demands already occurred.
+ADV0135|C|verification|reserve|Changes in communication can be monitored within the existing messaging relationship.|No style change or multiple operators are established; alternative explanations remain possible.
+ADV0136|N|initial_contact|out|The scenario explicitly starts on a dating app, not with a wrong-number message.|-
+ADV0137|C|verification|use|Cross-checking available public identity information is relevant to an online-only relationship.|Do not invent additional accounts or mutual contacts; use only available information.
+ADV0138|N|identity_story|out|Alex is not described as a celebrity or as sending unsolicited celebrity outreach.|-
+ADV0139|N|sextortion|out|A rapid sexual-content request is a separate escalation absent from all versions; a general intimate-media boundary remains retained.|-
+ADV0140|D|privacy|reserve|Sensitive personal disclosures can be limited preventively before any blackmail occurs.|Do not imply blackmail, existing secrets shared, or a threat from Alex.
+ADV0141|D|privacy|reserve|Reviewing one's own public information can support the retained privacy boundary.|Do not assume particular information is publicly exposed.
+ADV0142|C|privacy|reserve|Images can be checked for accidental identifiers if the recipient chooses to share them.|No image sharing or exposed identifier is stated.
+ADV0143|D|relationship|use|The recipient can pause an uncertain or uncomfortable conversation while reflecting or checking information.|Pausing need not mean ending the relationship; high urgency concerns staying online, not a payment deadline.
+ADV0144|N|recovery|out|Searching for unauthorized account use targets a compromise stage not present here.|-
+ADV0145|N|sextortion|out|No intimate-image blackmail or extortion payment request exists.|-
+ADV0146|C|money|reserve|Relationship promises linked to contributions are a relevant conditional financial-pressure pattern.|Alex's wish to meet and loan request are not explicitly linked; do not manufacture that link.
+ADV0147|C|money|reserve|Background stories can be evaluated critically if later used to support a financial request.|Do not label Alex's work or travel account fabricated or a deliberate setup.
+ADV0148|N|recovery|out|Feelings after discovery of fraud require a discovery not established in the scenario.|-
+ADV0149|N|unrelated_request|out|The advice specifically refers to a few meetings already held; Alex and the recipient have never met.|-
+ADV0150|C|money|reserve|Refusing to mislead a bank is a conditional financial boundary if a transfer is contemplated.|No bank interaction or instruction to lie is currently described.
+ADV0151|D|privacy|reserve|Protecting routines and habitual locations is a preventive privacy measure during online acquaintance.|No stalking or disclosure of routines is assumed.
+ADV0152|C|privacy|reserve|Children's privacy may matter only if the recipient has children or relevant images to share.|Do not invent children or family details in this fictional recipient's life.
+ADV0153|D|verification|use|Considering an optional live conversation is relevant before a first in-person meeting.|Do not require identity documents, assume a refusal, or promise that a call proves identity.
+ADV0154|C|meeting|use|Alex explicitly expresses a wish to meet eventually, so future first-meeting precautions have a stated connection.|Only if a meeting is arranged; no date, location, or travel plan currently exists.
+ADV0155|C|meeting|reserve|The right to leave becomes relevant if the stated future meeting happens and feels uncomfortable.|Do not portray a coercive in-person encounter as already occurring.
+ADV0156|C|meeting|use|Informing a trusted person is a precaution for the possible first meeting already contemplated.|Only if a meeting is arranged; no existing itinerary is assumed.
+ADV0157|C|meeting|reserve|A charged phone is a practical precaution for the possible future meeting.|Only if meeting; secondary to the present online decision.
+ADV0158|C|meeting|reserve|Independent transport supports autonomy if the contemplated meeting is scheduled.|Do not invent travel arrangements or a request for travel funding.
+ADV0159|C|meeting|reserve|Keeping belongings secure is relevant if an in-person meeting takes place.|Do not invent an existing meeting, theft, or access to a phone.
+ADV0160|N|support_role|out|Reviewing another adult's finances concerns a supporter or authorized representative, not the advice recipient here.|-
+ADV0161|C|delivery|reserve|Allowing time to process concerns can inform nonjudgmental delivery of advice.|No evidence of deception has been established; do not present speculation as proof to be accepted.
+ADV0162|C|delivery|use|Respecting the recipient's autonomy is transferable as an adviser communication principle.|Offer options rather than speaking as a friend taking control of the recipient's decisions.
+ADV0163|N|support_role|out|Escalating a supporter intervention because explanations fail is not the recipient's current task.|-
+ADV0164|N|recovery|out|The item assumes an offender knows the address; neither offender identity nor address exposure is established.|-
+ADV0165|N|support_role|out|Reporting on another person's behalf is not relevant to first-person advice for this recipient.|-
+ADV0166|N|support_role|out|Supporter distress is a different person's problem and is not described in the scenario.|-
+ADV0167|C|delivery|reserve|Nonjudgmental examination of promises can inform the advice's communication style.|Do not invent broken promises or records; the payback promise exists only in money-request versions.
+ADV0168|N|support_role|out|Promising ongoing availability commits a real supporter or service beyond this one-off advice task.|-
+ADV0169|N|support_role|out|Urgent supporter escalation for major losses, threats, exposed credentials, or risky travel requires additional serious events.|-
+ADV0170|N|support_role|out|Ongoing supporter monitoring of new contacts is outside the single-recipient advice task.|-
+ADV0171|N|support_role|out|Addressing another person's loneliness or repeat-targeting vulnerability assumes history and circumstances not supplied.|-
+ADV0172|N|recovery|out|A payment-app dispute requires an actual scam payment.|-
+ADV0173|N|recovery|out|Cancelling or reimbursing a wire transfer requires a completed or initiated transfer.|-
+ADV0174|N|recovery|out|A refund request requires a card charge not described.|-
+ADV0175|N|recovery|out|Contacting a gift-card issuer requires codes already supplied to an offender.|-
+ADV0176|N|recovery|out|Retaining receipts for a claim assumes a gift-card purchase and loss claim.|-
+ADV0177|N|recovery|out|An exchange or ATM report requires a cryptocurrency transaction already made.|-
+ADV0178|N|recovery|out|Intercepting cash or valuables requires an actual shipment.|-
+ADV0179|N|recovery|out|An identity-theft recovery plan requires identity exposure or misuse not reported here.|-
+ADV0180|N|recovery|out|Account recovery requires being locked out, which is not stated.|-
+ADV0181|N|recovery|out|Scanning after scammer device access assumes such access occurred.|-
+ADV0182|C|verification|reserve|Mutual followers can be interpreted cautiously if social-profile checks are performed, irrespective of the original sextortion category.|Do not invent mutual followers, community targeting, or a sexual context.
+ADV0183|N|sextortion|out|A message quoting an old password is a specific extortion or compromise claim absent here.|-
+ADV0184|N|sextortion|out|Fabricated intimate images and blackmail are not part of the scenario.|-
+ADV0185|N|sextortion|out|Negotiating deletion after blackmail payment requires an extortion event not described.|-
+ADV0186|C|escalation|reserve|Keeping report references becomes relevant only if the recipient actually files a report after further concerns.|Do not say a report has already been submitted; this is a later step within conditional reporting.
+ADV0187|N|sextortion|out|Sending intimate files to purported helpers requires an image-abuse support context absent here.|-
+ADV0188|N|sextortion|out|Reporting intimate-image abuse requires an abuse event not described.|-
+ADV0189|N|sextortion|out|Asking friends to block a blackmailer requires an identified blackmail incident.|-
+ADV0190|N|sextortion|out|Account deactivation to preserve extortion evidence is outside the present prevention stage.|-
+ADV0191|N|sextortion|out|StopNCII case creation requires eligible intimate images and an abuse-risk context absent here.|-
+ADV0192|N|investment|out|Investment registration checks require an investment offer not stated.|-
+ADV0193|N|investment|out|The registration caveat concerns investment providers, not a generic romantic contact.|-
+ADV0194|N|investment|out|Trading-site reviews require an investment platform not present.|-
+ADV0195|N|investment|out|Investment-domain age checks require a business or website claim not described.|-
+ADV0196|N|investment|out|Verifying a business address requires a proposed business or investment absent here.|-
+ADV0197|N|investment|out|No trading product or market is involved in this request.|-
+ADV0198|N|investment|out|Threats over a withdrawal require an investment balance and attempted withdrawal.|-
+ADV0199|C|delivery|reserve|A calm approach can inform supportive delivery, but this asynchronous advice cannot choose a real private meeting.|Use as a tone principle only; do not instruct the recipient to counsel a separate victim.
+ADV0200|C|delivery|use|Questions and nonaccusatory language can inform how advice addresses an uncertain relationship.|Use as adviser tone, without claiming fraud or pretending to have listened in an ongoing clinical relationship.
+ADV0201|C|delivery|reserve|Respect for a person's readiness can inform noncoercive advice delivery.|Do not assume resistance or prescribe actions for a third-party supporter.
+ADV0202|C|delivery|reserve|Discussing patterns without an immediate accusation can inform conditional risk explanations.|Examples must not be presented as events in Alex's story.
+ADV0203|C|delivery|reserve|Asking about independent verification is relevant as an adviser question even though its original audience is a supporter.|The dating-app origin is already known; do not invent missing answers or demand private documents.
+ADV0204|N|support_role|out|Seeking consent to research or make calls together describes a supporter performing actions beyond this advice-only task.|-
+ADV0205|N|support_role|out|Jointly pausing transfers assigns a supporter an active role; recipient-directed financial deliberation is retained separately.|-
+ADV0206|N|support_role|out|Reassuring a loved one about the supporter's trust presupposes a personal supporter relationship absent from the AI advice task.|-
+ADV0207|N|support_role|out|Protecting a supporter's finances is not advice about the recipient's own Alex relationship.|-
+ADV0208|N|recovery|out|Urgent police contact for physical threats requires a threat not stated.|-
+ADV0209|N|support_role|out|Adult-safeguarding referral requires vulnerability and serious harm not established here.|-
+ADV0210|N|support_role|out|Monitoring another person's unexplained transfers or financial secrecy is a supporter observation task.|-
+ADV0211|N|support_role|out|Monitoring another person's withdrawal and mood is a supporter observation task, not stated recipient facts.|-
+ADV0212|D|verification|use|Considering the combination of cues fits the ambiguity in every version.|Allow benign explanations; neither one cue nor a successful check proves safety or fraud.
+ADV0213|N|recovery|out|Recovery-specific wellbeing advice assumes prior victimization.|-
+ADV0214|N|recovery|out|The pace of recovery is not the present decision stage.|-
+ADV0215|N|recovery|out|Recording feelings for recovery assumes a post-incident recovery context.|-
+ADV0216|N|recovery|out|Restorative routines in a recovery context are not independently supported as an Alex-specific action by this entry.|-
+ADV0217|N|recovery|out|A group for people who experienced romance fraud requires a history not established here.|-
+ADV0218|N|recovery|out|Managing distressing evidence screenshots assumes an incident and distress not stated.|-
+ADV0219|N|recovery|out|Legal evidence requirements concern contemplated litigation outside the present facts.|-
+ADV0220|N|recovery|out|Private legal fees concern a legal case not described.|-
+ADV0221|N|investment|out|Mortgaging or retirement liquidation for an investment is outside the generic financial request.|-
+ADV0222|N|recovery|out|A post-scam employment offer requires prior victimization and an unrelated job proposal.|-
+ADV0223|N|recovery|out|Verifying an official's post-fraud approach requires an incident and subsequent official contact.|-
+ADV0224|N|investment|out|An insider or uncle trading opportunity is absent.|-
+ADV0225|N|investment|out|A crypto-only trading site is not part of the relationship scenario.|-
+ADV0226|D|digital|reserve|Keeping communication software updated is valid preventive background without needing compromise.|Do not suggest updates resolve interpersonal trust or verify Alex's identity.
+ADV0227|D|digital|reserve|A password manager supports general preventive credential protection.|An implementation option, not evidence that accounts are compromised.
+ADV0228|C|digital|reserve|A stronger second factor is useful if the service supports the chosen method.|Check availability; do not promise that authentication prevents romance deception.
+ADV0229|C|digital|reserve|Private recovery answers are relevant if an account uses security questions.|Do not assume security questions are enabled or public answers were exposed.
+ADV0230|N|sextortion|out|Image-age-based removal support requires an intimate-image incident not described.|-
+ADV0231|N|sextortion|out|A StopNCII dashboard requires a previously submitted case.|-
+ADV0232|N|sextortion|out|Case numbers and PINs require a StopNCII case not present.|-
+ADV0233|N|sextortion|out|Hashing altered intimate images requires image-abuse materials absent here.|-
+ADV0234|N|sextortion|out|Preparing an original image for hashing is a specialist removal workflow outside this case.|-
+ADV0235|N|sextortion|out|Hashing video stills requires intimate-image abuse materials not described.|-
+ADV0236|N|sextortion|out|A further StopNCII case requires prior reporting and additional images.|-
+ADV0237|N|support_role|out|Helping another adult submit an intimate-image case requires both a supporter role and an image-abuse event.|-
+ADV0238|N|sextortion|out|The distinction between image hashing and police reporting is outside the present event context.|-
+ADV0239|D|verification|use|Daily written messages do not authenticate an online-only contact simply by being fluent.|Do not characterize Alex's actual writing quality or imply AI authorship of their messages.
+ADV0240|C|verification|use|Realistic photographs have verification limits if pictures are available.|Do not say Alex has supplied generated images; apply only to evidence actually encountered.
+ADV0241|C|verification|use|A video check has limits if a call is attempted or considered.|Do not claim Alex uses deepfakes or that a successful call guarantees safety.
+ADV0242|C|verification|reserve|Voice or wording changes can be considered if enough prior contact exists for a comparison.|No voice contact or sudden change is stated; alternative explanations must remain possible.
+ADV0243|D|privacy|reserve|Limiting public recordings is a preventive privacy option for online contact.|Do not assume recordings exist or that impersonation has occurred.
+ADV0244|C|escalation|reserve|Available contact history is relevant if the recipient later files a report without necessarily having paid.|Include only actual events; omit payment instructions and disclosures when none exist.
+ADV0245|N|recovery|out|An unsolicited FBI link about an existing complaint requires a prior reporting and recontact stage.|-
+ADV0246|N|recovery|out|Impersonated investigators offering fund recovery require a recovery context absent here.|-
+ADV0247|C|escalation|reserve|A US official reporting route may be relevant if concerns progress to a report.|Verify the current official route before use; do not present the relationship as confirmed crime.
+ADV0248|C|escalation|reserve|Avoiding misleading search advertisements may help only if the recipient seeks the official reporting website.|A subordinate reporting step; no current complaint or fraudulent search result is assumed.
+ADV0249|N|unrelated_request|out|No alarming media or news claim has been supplied; this introduces a separate misinformation task.|-
+ADV0250|N|population|out|The named assistance targets US victims aged 60 or over; the study recruits adults aged 18–59 and no victimization is established.|-
+ADV0251|N|recovery|out|Unexpected login alerts or account changes are not described.|-
+ADV0252|N|recovery|out|Signing out sessions after recovery requires prior account takeover and recovery.|-
+ADV0253|N|recovery|out|Removing intruder recovery details requires actual account compromise.|-
+ADV0254|N|recovery|out|Inspecting intruder mail activity requires an account-compromise context.|-
+ADV0255|N|recovery|out|Warning contacts of a hacked account presupposes the account was compromised.|-
+ADV0256|D|digital|reserve|Email security is preventive background for accounts used in online communication.|Do not claim Alex accessed email or triggered resets.
+ADV0257|C|verification|use|Consistency across channels is not independent proof if more than one source is checked.|Do not invent additional channels or coordinated messages; explain a limitation of evidence.
+ADV0258|C|verification|use|Evidence offered to answer doubts can be independently checked if Alex supplies it.|No reassurance document or fabricated evidence is currently stated.
+ADV0259|C|verification|use|Official-looking documents are not conclusive if presented during a voluntary identity check.|Do not request or exchange private identity documents or assert forgery.
+ADV0260|C|money|reserve|Payee checks matter only if payment is contemplated and recipient details are available.|No transfer or mismatch is stated; a matching payee does not make sending money safe.
+ADV0261|C|money|reserve|A bank's payee-checking feature is relevant only if available and payment is contemplated.|Do not assume this named feature is available at a US bank or that a match verifies Alex.
+ADV0262|N|recovery|out|A safe-account transfer instruction is a separate bank-impersonation or recovery event not described.|-
+ADV0263|N|identity_story|out|An inaccessible inheritance is a specific financial story not present in the generic request.|-
+ADV0264|C|verification|reserve|Gifts are not identity proof if any are later received.|No flowers or gifts have been sent; do not add them to the narrative.
+ADV0265|C|privacy|reserve|One-sided requests for information can be monitored while getting to know Alex.|Alex is described as sharing experiences; do not assert asymmetric disclosure without further evidence.
+ADV0266|N|identity_story|out|A business bridge loan is a specific pretext not stated; keep the generic financial request generic.|-
+ADV0267|N|unrelated_request|out|Customs or gift-delivery fees require an unreported parcel or gift transaction.|-
+ADV0268|C|digital|reserve|Declining unsolicited payment approvals is a conditional credential and account boundary.|No approval notification has arrived; do not imply that an account is under attack.
+ADV0269|C|digital|reserve|Declining remote access is a prospective digital boundary if an online contact makes such a request.|No remote-access request or installed software is stated.
+ADV0270|N|recovery|out|Investigating unrequested bank alerts is an incident-response task requiring an alert absent here.|-
+ADV0271|N|unrelated_request|out|Changed business payment details concern invoice fraud, not the romantic loan request described.|-
+ADV0272|N|recovery|out|An incoming call from a supposed bank or official is a separate authority-impersonation event.|-
+ADV0273|C|money|reserve|Transfer limits may be a secondary protective option if the recipient reviews payment safeguards.|Check bank availability; do not imply a limit authenticates the contact or a transfer is pending.
+ADV0274|C|money|reserve|Card-channel controls may be preventive if available and relevant to the recipient's payment use.|Do not invent a card payment, compromised card, or bank feature.
+ADV0275|N|recovery|out|Freezing a card to stop further use addresses an incident or unwanted use not described.|-
+ADV0276|N|jurisdiction|out|The specified ScamShield service is Singapore-specific and does not match the planned US deployment.|-
+ADV0277|C|money|reserve|Unverified payment links or QR codes are conditional risks if a financial request supplies them.|No link or QR code is stated; do not identify a specific payment method for Alex.
+ADV0278|D|privacy|use|Keeping one-time passcodes private is a preventive credential boundary.|No code request has occurred; do not conflate this with a required identity check.
+ADV0279|C|privacy|reserve|The general prohibition on lending an identity account can apply, while the named Singpass example is jurisdiction-specific.|Apply only to an identity account actually used; do not recommend a Singapore service to US participants.
+ADV0280|N|jurisdiction|out|The named Singapore helpline is not the appropriate local service for the planned US sample.|-
+ADV0281|C|support|reserve|Sharing a warning may be appropriate if later evidence identifies a suspicious approach; initial uncertainty alone does not establish fraud.|Do not accuse Alex publicly or describe a confirmed scam without evidence; distinguish warning from seeking a second opinion.
+ADV0282|N|unrelated_request|out|A commission for moving funds is a separate money-mule offer absent from the current request.|-
+ADV0283|N|unrelated_request|out|Depositing another person's cash at a crypto kiosk is a separate transaction not present.|-
+ADV0284|N|unrelated_request|out|A deposited check or displayed available balance is not part of the Alex scenario.|-
+ADV0285|N|recovery|out|Stopping a money order requires a purchase or payment already made.|-
+ADV0286|N|recovery|out|Notifying a gift-card retailer requires a gift-card scam transaction already made.|-
+ADV0287|N|investment|out|A wallet seed phrase and investment website require a cryptocurrency workflow outside this case.|-
+ADV0288|N|investment|out|Unsolicited token rewards require a separate cryptocurrency offer not stated.|-

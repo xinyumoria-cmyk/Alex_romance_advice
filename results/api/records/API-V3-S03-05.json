@@ -1,0 +1,26 @@
+{
+  "task_id": "API-V3-S03-05",
+  "scenario_id": "S03",
+  "replicate": 5,
+  "response_id": "resp_0f66558f11029d8a016abd1e2755c087d1884f5542ceef71e5",
+  "request_id": "req_9ea48b3f53af4ec4b8335b71de66a139",
+  "model_returned": "gpt-6-astra",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 3382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3379
+    },
+    "output_tokens": 209,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3591
+  },
+  "ended_utc": "2026-09-30T14:35:29.470195+00:00",
+  "advice": "It makes sense to feel unsure. You’ve been talking for six weeks, haven’t met, and Alex has now asked for money. That warrants caution, but it doesn’t establish fraud: financial difficulties and scheduling conflicts can be genuine. Daily attention and a repayment promise don’t establish trustworthiness either. The main risks are losing money and feeling obliged to give more if further requests follow.\n\nDecline the loan and keep getting to know Alex separately from finances. You could say, “I enjoy our conversations, but I don’t send money to people I’ve only met online.” You don’t need to justify your budget or prove trust by paying. Talk through the request with someone you trust for an outside perspective.\n\nIf you want to continue, suggest a live video conversation as one limited screening step—not proof of identity or safety. Scheduling difficulties so far don’t demonstrate avoidance. Notice how Alex responds to your boundary over time. If pressure, repeated requests, inconsistent explanations, or persistent avoidance develop, consider stepping back or ending contact.",
+  "word_count": 169,
+  "paragraph_count": 3,
+  "response_sha256": "1A8D34DBC063F962231A71437F7285E124FC645A368023F0564E9D627770F16C"
+}

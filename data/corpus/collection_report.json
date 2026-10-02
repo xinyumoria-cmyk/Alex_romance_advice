@@ -1,0 +1,56 @@
+{
+  "completed_on": "2026-09-18",
+  "status": "collection_and_AI_semantic_deduplication_complete",
+  "source_pages": 46,
+  "publisher_domains": 23,
+  "candidate_extractions": 382,
+  "exact_duplicate_texts": 0,
+  "initial_semantic_keys": 320,
+  "cross_key_merge_decisions": 31,
+  "excluded_candidates": 1,
+  "merged_candidates": 93,
+  "retained_units": 288,
+  "scope_counts_nonexclusive": {
+    "core": 110,
+    "recovery": 73,
+    "support": 36,
+    "sextortion": 20,
+    "dating_safety": 22,
+    "investment": 34
+  },
+  "stage_counts_nonexclusive": {
+    "prevention": 88,
+    "suspicion": 95,
+    "recovery": 80,
+    "support": 32
+  },
+  "source_type_counts": {
+    "government": 24,
+    "police": 6,
+    "university": 2,
+    "regulator": 4,
+    "nonprofit": 4,
+    "industry_public_campaign": 1,
+    "platform": 1,
+    "bank": 4
+  },
+  "source_context_counts": {
+    "romance_specific": 25,
+    "dating_safety": 3,
+    "adjacent_scam_or_recovery_mechanism": 18
+  },
+  "retained_with_romance_specific_source": 154,
+  "retained_adjacent_only": 105,
+  "semantic_method": "AI-assisted contextual reading; same action, object and materially relevant condition; cross-key aliases explicitly adjudicated. Script replays decisions.",
+  "embedding_model": null,
+  "independent_human_coders": 0,
+  "not_claimed": [
+    "systematic literature review",
+    "300 independent macro-strategies",
+    "expert-validated effectiveness",
+    "verbatim human-authored advice",
+    "model training completed"
+  ],
+  "source_locator_note": "L numbers refer to the retrieved text snapshot; PDF page/section locators refer to the captured document. Website layouts may change.",
+  "full_source_pages_distributed": false
+}

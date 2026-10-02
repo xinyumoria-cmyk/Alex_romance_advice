@@ -1,0 +1,7 @@
+{
+  "task_id": "API-V3-S01-05",
+  "status": "transport_error_outcome_unknown",
+  "error_type": "URLError",
+  "detail": "<urlopen error [WinError 10013] 以一种访问权限不允许的方式做了一个访问套接字的尝试。>",
+  "ended_utc": "2026-09-30T14:23:51.803664+00:00"
+}

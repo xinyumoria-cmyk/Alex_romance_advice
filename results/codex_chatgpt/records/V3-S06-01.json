@@ -1,0 +1,29 @@
+{
+    "task_id":  "V3-S06-01",
+    "scenario_id":  "S06",
+    "replicate":  1,
+    "attempt":  1,
+    "status":  "completed",
+    "started_utc":  "2026-09-30T13:32:46.5789172Z",
+    "ended_utc":  "2026-09-30T13:32:58.1774609Z",
+    "exit_code":  0,
+    "thread_id":  "01a0f284-86e6-7472-aee1-f75c181256c9",
+    "turn_completed":  true,
+    "unexpected_tool_events":  [
+
+                               ],
+    "requested_model":  "gpt-6-astra",
+    "serving_snapshot":  null,
+    "reasoning_effort":  "medium",
+    "response_file":  "responses/V3-S06-01.txt",
+    "response_sha256":  "EC998D9DC13956137CAE55FD7B68D73AFDE502DC3E6C3976C641C062E2235A26",
+    "usage":  [
+                  {
+                      "input_tokens":  8520,
+                      "cached_input_tokens":  0,
+                      "cache_write_input_tokens":  0,
+                      "output_tokens":  210,
+                      "reasoning_output_tokens":  0
+                  }
+              ]
+}

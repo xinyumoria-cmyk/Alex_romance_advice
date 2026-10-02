@@ -1,0 +1,14 @@
+{
+    "modified_utc":  "2026-09-30T14:44:12.1735289Z",
+    "document":  "<WORKSPACE>\\Word versions\\10 - Alex GPT-6 API Advice - 40 Responses - Reference v3.docx",
+    "note_replacements":  8,
+    "advice_texts_verified_against_raw_api":  40,
+    "advice_paragraph_xml_unchanged":  true,
+    "other_docx_parts_unchanged":  true,
+    "api_remains_disabled":  true,
+    "backup":  "<WORKSPACE>\\alex_api_generation_v3\\document_backups\\20260930T144411835",
+    "docx_sha256":  "3F81B56F3292A39D9915EA78CBDBF772F77AE82FA8344CC963C24405A70A91F5",
+    "visual_qa":  false,
+    "visual_qa_limitation":  "LibreOffice and rendering dependencies unavailable; structure and exact output text verified.",
+    "scope":  "Document commentary only. Historical API responses, review logs, parameters and generation records are unchanged."
+}

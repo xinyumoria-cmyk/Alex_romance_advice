@@ -1,0 +1,339 @@
+{
+    "completed":  40,
+    "expected":  40,
+    "missing":  [
+
+                ],
+    "unique_sessions":  40,
+    "unique_raw_hashes":  40,
+    "minimum_words":  162,
+    "maximum_words":  179,
+    "length_failures":  0,
+    "items_flagged":  0,
+    "original_files_preserved":  true,
+    "protected_files":  643,
+    "independent_human_validation":  false,
+    "semantic_validation":  "Keyword checks identify candidates for contextual review; they do not establish semantic correctness",
+    "items":  [
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S04-01",
+                      "word_count":  174
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S08-05",
+                      "word_count":  168
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S07-02",
+                      "word_count":  177
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S03-02",
+                      "word_count":  175
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S04-04",
+                      "word_count":  172
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S03-04",
+                      "word_count":  171
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S01-05",
+                      "word_count":  170
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S05-03",
+                      "word_count":  171
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S08-03",
+                      "word_count":  168
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S07-05",
+                      "word_count":  172
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S02-04",
+                      "word_count":  162
+                  },
+                  {
+                      "paragraph_count":  2,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S01-02",
+                      "word_count":  165
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S03-01",
+                      "word_count":  166
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S08-02",
+                      "word_count":  169
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S01-03",
+                      "word_count":  171
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S03-03",
+                      "word_count":  173
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S08-01",
+                      "word_count":  172
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S08-04",
+                      "word_count":  179
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S06-03",
+                      "word_count":  168
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S02-05",
+                      "word_count":  168
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S04-05",
+                      "word_count":  165
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S06-05",
+                      "word_count":  168
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S07-03",
+                      "word_count":  172
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S05-05",
+                      "word_count":  167
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S05-01",
+                      "word_count":  166
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S01-04",
+                      "word_count":  172
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S02-01",
+                      "word_count":  168
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S04-02",
+                      "word_count":  176
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S06-01",
+                      "word_count":  174
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S05-04",
+                      "word_count":  164
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S06-02",
+                      "word_count":  167
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S05-02",
+                      "word_count":  178
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S01-01",
+                      "word_count":  177
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S02-02",
+                      "word_count":  168
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S06-04",
+                      "word_count":  167
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S07-01",
+                      "word_count":  170
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S07-04",
+                      "word_count":  171
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S04-03",
+                      "word_count":  167
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S03-05",
+                      "word_count":  171
+                  },
+                  {
+                      "paragraph_count":  3,
+                      "flags":  [
+
+                                ],
+                      "task_id":  "V3-S02-03",
+                      "word_count":  172
+                  }
+              ]
+}

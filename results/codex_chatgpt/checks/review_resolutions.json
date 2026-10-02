@@ -1,0 +1,57 @@
+[
+    {
+        "task_id":  "V3-S05-01",
+        "status":  "user_confirmed",
+        "decision":  "Wording accepted; original advice unchanged",
+        "confirmed_on":  "2026-09-30",
+        "recorded_at_utc":  "2026-09-30T13:41:37.3910422Z",
+        "confirmed_by":  "User / project researcher",
+        "scope":  "Previously flagged wording only; not a full-batch independent human review or reference-selection adjudication",
+        "original_flag_file":  "checks/context_review.tsv",
+        "note":  "Researcher confirmation (30 September 2026): The user confirmed the flagged wording in V3-S05-01 is acceptable. The wording flag is closed; the original advice is unchanged. This decision concerns this wording only."
+    },
+    {
+        "task_id":  "V3-S05-03",
+        "status":  "user_confirmed",
+        "decision":  "Wording accepted; original advice unchanged",
+        "confirmed_on":  "2026-09-30",
+        "recorded_at_utc":  "2026-09-30T13:41:37.3956751Z",
+        "confirmed_by":  "User / project researcher",
+        "scope":  "Previously flagged wording only; not a full-batch independent human review or reference-selection adjudication",
+        "original_flag_file":  "checks/context_review.tsv",
+        "note":  "Researcher confirmation (30 September 2026): The user confirmed the flagged wording in V3-S05-03 is acceptable. The wording flag is closed; the original advice is unchanged. This decision concerns this wording only."
+    },
+    {
+        "task_id":  "V3-S05-04",
+        "status":  "user_confirmed",
+        "decision":  "Wording accepted; original advice unchanged",
+        "confirmed_on":  "2026-09-30",
+        "recorded_at_utc":  "2026-09-30T13:41:37.3982356Z",
+        "confirmed_by":  "User / project researcher",
+        "scope":  "Previously flagged wording only; not a full-batch independent human review or reference-selection adjudication",
+        "original_flag_file":  "checks/context_review.tsv",
+        "note":  "Researcher confirmation (30 September 2026): The user confirmed the flagged wording in V3-S05-04 is acceptable. The wording flag is closed; the original advice is unchanged. This decision concerns this wording only."
+    },
+    {
+        "task_id":  "V3-S05-05",
+        "status":  "user_confirmed",
+        "decision":  "Wording accepted; original advice unchanged",
+        "confirmed_on":  "2026-09-30",
+        "recorded_at_utc":  "2026-09-30T13:41:37.3992358Z",
+        "confirmed_by":  "User / project researcher",
+        "scope":  "Previously flagged wording only; not a full-batch independent human review or reference-selection adjudication",
+        "original_flag_file":  "checks/context_review.tsv",
+        "note":  "Researcher confirmation (30 September 2026): The user confirmed the flagged wording in V3-S05-05 is acceptable. The wording flag is closed; the original advice is unchanged. This decision concerns this wording only."
+    },
+    {
+        "task_id":  "V3-S08-01",
+        "status":  "user_confirmed",
+        "decision":  "Wording accepted; original advice unchanged",
+        "confirmed_on":  "2026-09-30",
+        "recorded_at_utc":  "2026-09-30T13:41:37.4064023Z",
+        "confirmed_by":  "User / project researcher",
+        "scope":  "Previously flagged wording only; not a full-batch independent human review or reference-selection adjudication",
+        "original_flag_file":  "checks/context_review.tsv",
+        "note":  "Researcher confirmation (30 September 2026): The user confirmed the flagged wording in V3-S08-01 is acceptable. The wording flag is closed; the original advice is unchanged. This decision concerns this wording only."
+    }
+]

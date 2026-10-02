@@ -1,0 +1,311 @@
+{
+  "batch_id": "alex-api-reference-v3-all-eight-2026-09-30",
+  "prepared_utc": "2026-09-30T14:23:26.449866+00:00",
+  "endpoint": "https://api.openai.com/v1/responses",
+  "model": "gpt-6-astra",
+  "reasoning": {
+    "effort": "medium"
+  },
+  "max_output_tokens": 8192,
+  "store": false,
+  "reference_count": 60,
+  "reference_pack_sha256": "3016EA2830BB48945620B70233AB066E50D8E45838C21E890F1CB0C5A76D3C7A",
+  "inputs": {
+    "generation_instructions.txt": "E8E15243456479BE52B6863E1EE51F4E26B00EDF5C182044B7BE40D0685C662D",
+    "prompts/S01.txt": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5",
+    "prompts/S02.txt": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2",
+    "prompts/S04.txt": "D400D028ADD3B69A6F159C72F8EF70650086211993A64309ABD461AC1D9400F0",
+    "prompts/S08.txt": "6ABC99E4773286548FB62FA1EE4891056604C1FA5D7CC735A4BEA69A17A6D3BE",
+    "prompts/S07.txt": "D958492D6B2F7A495F12FF8DB48956B8F324AF8CCAE60FAEE0CF5F786367E3B6",
+    "prompts/S03.txt": "D28BB98D2242C394BA8BB2080DE3E8E588325D8B385CD73C1AA66CCC62B2A5D3",
+    "prompts/S05.txt": "5BAA6EE777A77D5D82D410833DBCF8601CC1F6B58DC5352602335BA23F1441EF",
+    "prompts/S06.txt": "CC3D22853818578B2A9BE425B327CF139F3B6205185785FF7D22B3AD57E4C4E7"
+  },
+  "tasks": [
+    {
+      "task_id": "API-V3-S04-01",
+      "scenario_id": "S04",
+      "replicate": 1,
+      "prompt_file": "prompts/S04.txt",
+      "prompt_sha256": "D400D028ADD3B69A6F159C72F8EF70650086211993A64309ABD461AC1D9400F0"
+    },
+    {
+      "task_id": "API-V3-S08-05",
+      "scenario_id": "S08",
+      "replicate": 5,
+      "prompt_file": "prompts/S08.txt",
+      "prompt_sha256": "6ABC99E4773286548FB62FA1EE4891056604C1FA5D7CC735A4BEA69A17A6D3BE"
+    },
+    {
+      "task_id": "API-V3-S07-02",
+      "scenario_id": "S07",
+      "replicate": 2,
+      "prompt_file": "prompts/S07.txt",
+      "prompt_sha256": "D958492D6B2F7A495F12FF8DB48956B8F324AF8CCAE60FAEE0CF5F786367E3B6"
+    },
+    {
+      "task_id": "API-V3-S03-02",
+      "scenario_id": "S03",
+      "replicate": 2,
+      "prompt_file": "prompts/S03.txt",
+      "prompt_sha256": "D28BB98D2242C394BA8BB2080DE3E8E588325D8B385CD73C1AA66CCC62B2A5D3"
+    },
+    {
+      "task_id": "API-V3-S04-04",
+      "scenario_id": "S04",
+      "replicate": 4,
+      "prompt_file": "prompts/S04.txt",
+      "prompt_sha256": "D400D028ADD3B69A6F159C72F8EF70650086211993A64309ABD461AC1D9400F0"
+    },
+    {
+      "task_id": "API-V3-S03-04",
+      "scenario_id": "S03",
+      "replicate": 4,
+      "prompt_file": "prompts/S03.txt",
+      "prompt_sha256": "D28BB98D2242C394BA8BB2080DE3E8E588325D8B385CD73C1AA66CCC62B2A5D3"
+    },
+    {
+      "task_id": "API-V3-S01-05",
+      "scenario_id": "S01",
+      "replicate": 5,
+      "prompt_file": "prompts/S01.txt",
+      "prompt_sha256": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5"
+    },
+    {
+      "task_id": "API-V3-S05-03",
+      "scenario_id": "S05",
+      "replicate": 3,
+      "prompt_file": "prompts/S05.txt",
+      "prompt_sha256": "5BAA6EE777A77D5D82D410833DBCF8601CC1F6B58DC5352602335BA23F1441EF"
+    },
+    {
+      "task_id": "API-V3-S08-03",
+      "scenario_id": "S08",
+      "replicate": 3,
+      "prompt_file": "prompts/S08.txt",
+      "prompt_sha256": "6ABC99E4773286548FB62FA1EE4891056604C1FA5D7CC735A4BEA69A17A6D3BE"
+    },
+    {
+      "task_id": "API-V3-S07-05",
+      "scenario_id": "S07",
+      "replicate": 5,
+      "prompt_file": "prompts/S07.txt",
+      "prompt_sha256": "D958492D6B2F7A495F12FF8DB48956B8F324AF8CCAE60FAEE0CF5F786367E3B6"
+    },
+    {
+      "task_id": "API-V3-S02-04",
+      "scenario_id": "S02",
+      "replicate": 4,
+      "prompt_file": "prompts/S02.txt",
+      "prompt_sha256": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2"
+    },
+    {
+      "task_id": "API-V3-S01-02",
+      "scenario_id": "S01",
+      "replicate": 2,
+      "prompt_file": "prompts/S01.txt",
+      "prompt_sha256": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5"
+    },
+    {
+      "task_id": "API-V3-S03-01",
+      "scenario_id": "S03",
+      "replicate": 1,
+      "prompt_file": "prompts/S03.txt",
+      "prompt_sha256": "D28BB98D2242C394BA8BB2080DE3E8E588325D8B385CD73C1AA66CCC62B2A5D3"
+    },
+    {
+      "task_id": "API-V3-S08-02",
+      "scenario_id": "S08",
+      "replicate": 2,
+      "prompt_file": "prompts/S08.txt",
+      "prompt_sha256": "6ABC99E4773286548FB62FA1EE4891056604C1FA5D7CC735A4BEA69A17A6D3BE"
+    },
+    {
+      "task_id": "API-V3-S01-03",
+      "scenario_id": "S01",
+      "replicate": 3,
+      "prompt_file": "prompts/S01.txt",
+      "prompt_sha256": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5"
+    },
+    {
+      "task_id": "API-V3-S03-03",
+      "scenario_id": "S03",
+      "replicate": 3,
+      "prompt_file": "prompts/S03.txt",
+      "prompt_sha256": "D28BB98D2242C394BA8BB2080DE3E8E588325D8B385CD73C1AA66CCC62B2A5D3"
+    },
+    {
+      "task_id": "API-V3-S08-01",
+      "scenario_id": "S08",
+      "replicate": 1,
+      "prompt_file": "prompts/S08.txt",
+      "prompt_sha256": "6ABC99E4773286548FB62FA1EE4891056604C1FA5D7CC735A4BEA69A17A6D3BE"
+    },
+    {
+      "task_id": "API-V3-S08-04",
+      "scenario_id": "S08",
+      "replicate": 4,
+      "prompt_file": "prompts/S08.txt",
+      "prompt_sha256": "6ABC99E4773286548FB62FA1EE4891056604C1FA5D7CC735A4BEA69A17A6D3BE"
+    },
+    {
+      "task_id": "API-V3-S06-03",
+      "scenario_id": "S06",
+      "replicate": 3,
+      "prompt_file": "prompts/S06.txt",
+      "prompt_sha256": "CC3D22853818578B2A9BE425B327CF139F3B6205185785FF7D22B3AD57E4C4E7"
+    },
+    {
+      "task_id": "API-V3-S02-05",
+      "scenario_id": "S02",
+      "replicate": 5,
+      "prompt_file": "prompts/S02.txt",
+      "prompt_sha256": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2"
+    },
+    {
+      "task_id": "API-V3-S04-05",
+      "scenario_id": "S04",
+      "replicate": 5,
+      "prompt_file": "prompts/S04.txt",
+      "prompt_sha256": "D400D028ADD3B69A6F159C72F8EF70650086211993A64309ABD461AC1D9400F0"
+    },
+    {
+      "task_id": "API-V3-S06-05",
+      "scenario_id": "S06",
+      "replicate": 5,
+      "prompt_file": "prompts/S06.txt",
+      "prompt_sha256": "CC3D22853818578B2A9BE425B327CF139F3B6205185785FF7D22B3AD57E4C4E7"
+    },
+    {
+      "task_id": "API-V3-S07-03",
+      "scenario_id": "S07",
+      "replicate": 3,
+      "prompt_file": "prompts/S07.txt",
+      "prompt_sha256": "D958492D6B2F7A495F12FF8DB48956B8F324AF8CCAE60FAEE0CF5F786367E3B6"
+    },
+    {
+      "task_id": "API-V3-S05-05",
+      "scenario_id": "S05",
+      "replicate": 5,
+      "prompt_file": "prompts/S05.txt",
+      "prompt_sha256": "5BAA6EE777A77D5D82D410833DBCF8601CC1F6B58DC5352602335BA23F1441EF"
+    },
+    {
+      "task_id": "API-V3-S05-01",
+      "scenario_id": "S05",
+      "replicate": 1,
+      "prompt_file": "prompts/S05.txt",
+      "prompt_sha256": "5BAA6EE777A77D5D82D410833DBCF8601CC1F6B58DC5352602335BA23F1441EF"
+    },
+    {
+      "task_id": "API-V3-S01-04",
+      "scenario_id": "S01",
+      "replicate": 4,
+      "prompt_file": "prompts/S01.txt",
+      "prompt_sha256": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5"
+    },
+    {
+      "task_id": "API-V3-S02-01",
+      "scenario_id": "S02",
+      "replicate": 1,
+      "prompt_file": "prompts/S02.txt",
+      "prompt_sha256": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2"
+    },
+    {
+      "task_id": "API-V3-S04-02",
+      "scenario_id": "S04",
+      "replicate": 2,
+      "prompt_file": "prompts/S04.txt",
+      "prompt_sha256": "D400D028ADD3B69A6F159C72F8EF70650086211993A64309ABD461AC1D9400F0"
+    },
+    {
+      "task_id": "API-V3-S06-01",
+      "scenario_id": "S06",
+      "replicate": 1,
+      "prompt_file": "prompts/S06.txt",
+      "prompt_sha256": "CC3D22853818578B2A9BE425B327CF139F3B6205185785FF7D22B3AD57E4C4E7"
+    },
+    {
+      "task_id": "API-V3-S05-04",
+      "scenario_id": "S05",
+      "replicate": 4,
+      "prompt_file": "prompts/S05.txt",
+      "prompt_sha256": "5BAA6EE777A77D5D82D410833DBCF8601CC1F6B58DC5352602335BA23F1441EF"
+    },
+    {
+      "task_id": "API-V3-S06-02",
+      "scenario_id": "S06",
+      "replicate": 2,
+      "prompt_file": "prompts/S06.txt",
+      "prompt_sha256": "CC3D22853818578B2A9BE425B327CF139F3B6205185785FF7D22B3AD57E4C4E7"
+    },
+    {
+      "task_id": "API-V3-S05-02",
+      "scenario_id": "S05",
+      "replicate": 2,
+      "prompt_file": "prompts/S05.txt",
+      "prompt_sha256": "5BAA6EE777A77D5D82D410833DBCF8601CC1F6B58DC5352602335BA23F1441EF"
+    },
+    {
+      "task_id": "API-V3-S01-01",
+      "scenario_id": "S01",
+      "replicate": 1,
+      "prompt_file": "prompts/S01.txt",
+      "prompt_sha256": "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5"
+    },
+    {
+      "task_id": "API-V3-S02-02",
+      "scenario_id": "S02",
+      "replicate": 2,
+      "prompt_file": "prompts/S02.txt",
+      "prompt_sha256": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2"
+    },
+    {
+      "task_id": "API-V3-S06-04",
+      "scenario_id": "S06",
+      "replicate": 4,
+      "prompt_file": "prompts/S06.txt",
+      "prompt_sha256": "CC3D22853818578B2A9BE425B327CF139F3B6205185785FF7D22B3AD57E4C4E7"
+    },
+    {
+      "task_id": "API-V3-S07-01",
+      "scenario_id": "S07",
+      "replicate": 1,
+      "prompt_file": "prompts/S07.txt",
+      "prompt_sha256": "D958492D6B2F7A495F12FF8DB48956B8F324AF8CCAE60FAEE0CF5F786367E3B6"
+    },
+    {
+      "task_id": "API-V3-S07-04",
+      "scenario_id": "S07",
+      "replicate": 4,
+      "prompt_file": "prompts/S07.txt",
+      "prompt_sha256": "D958492D6B2F7A495F12FF8DB48956B8F324AF8CCAE60FAEE0CF5F786367E3B6"
+    },
+    {
+      "task_id": "API-V3-S04-03",
+      "scenario_id": "S04",
+      "replicate": 3,
+      "prompt_file": "prompts/S04.txt",
+      "prompt_sha256": "D400D028ADD3B69A6F159C72F8EF70650086211993A64309ABD461AC1D9400F0"
+    },
+    {
+      "task_id": "API-V3-S03-05",
+      "scenario_id": "S03",
+      "replicate": 5,
+      "prompt_file": "prompts/S03.txt",
+      "prompt_sha256": "D28BB98D2242C394BA8BB2080DE3E8E588325D8B385CD73C1AA66CCC62B2A5D3"
+    },
+    {
+      "task_id": "API-V3-S02-03",
+      "scenario_id": "S02",
+      "replicate": 3,
+      "prompt_file": "prompts/S02.txt",
+      "prompt_sha256": "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2"
+    }
+  ],
+  "expected": 40,
+  "policy": "Forty independent calls, first ten retained. No history, tools, or automatic retries. Keep first output including failures and incomplete outputs. No rewriting or selection.",
+  "authorization": "User authorized remaining 30 responses: S03-S08, five each. Preserve previous S01-S02 API responses and parameters.",
+  "source_interface": "OpenAI Responses API; separate from historical Codex CLI outputs",
+  "extended_utc": "2026-09-30T14:30:20.171256+00:00"
+}

@@ -1,0 +1,16 @@
+{
+    "status":  "user_confirmed",
+    "confirmed_on":  "2026-09-30",
+    "recorded_at_utc":  "2026-09-30T13:50:04.0683974Z",
+    "confirmed_by":  "User / project researcher",
+    "scope":  "Current selection principles and use of the existing 60-selected/60-reserve framework for subsequent API generation",
+    "reference_count":  60,
+    "reserve_count":  60,
+    "reference_pack_sha256":  "3016EA2830BB48945620B70233AB066E50D8E45838C21E890F1CB0C5A76D3C7A",
+    "functional_review_sha256":  "2FD4C48C3FC9291F06AD041A3FE347A5F1D5EE3D8463838E96327267605921AD",
+    "timing":  "After v3 Codex generation and before any API batch in this session; not backdated",
+    "independent_double_coding_claimed":  false,
+    "full_batch_output_review_claimed":  false,
+    "source_reverification_claimed":  false,
+    "note":  "The project researcher confirmed the current selection principles on 30 September 2026, accepting the 60-selected/60-reserve framework for subsequent API generation. This records principle-level approval, not independent double coding or new source verification."
+}

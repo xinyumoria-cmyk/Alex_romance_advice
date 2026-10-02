@@ -1,0 +1,112 @@
+{
+    "version":  "3.0",
+    "date":  "2026-09-30",
+    "corpus_count":  288,
+    "eligible_count":  120,
+    "outside_scope":  168,
+    "selected_count":  60,
+    "reserve_count":  60,
+    "added_ids":  [
+                      "ADV0071",
+                      "ADV0079",
+                      "ADV0111",
+                      "ADV0121",
+                      "ADV0140",
+                      "ADV0155",
+                      "ADV0157",
+                      "ADV0158",
+                      "ADV0182",
+                      "ADV0269"
+                  ],
+    "removed_ids":  [
+                        "ADV0059",
+                        "ADV0162",
+                        "ADV0200"
+                    ],
+    "decision_counts":  [
+                            {
+                                "rule":  "S1",
+                                "count":  12
+                            },
+                            {
+                                "rule":  "S2",
+                                "count":  27
+                            },
+                            {
+                                "rule":  "R3",
+                                "count":  22
+                            },
+                            {
+                                "rule":  "S3",
+                                "count":  21
+                            },
+                            {
+                                "rule":  "R4",
+                                "count":  11
+                            },
+                            {
+                                "rule":  "R2",
+                                "count":  15
+                            },
+                            {
+                                "rule":  "R1",
+                                "count":  12
+                            }
+                        ],
+    "selection_rules":  {
+                            "S1":  "Selected: directly supports a decision arising from the stated relationship or manipulated cue.",
+                            "S2":  "Selected: adds a distinct recipient action, exposure boundary or operational function tied to that decision, ongoing messaging, identity checking or the contemplated first meeting.",
+                            "S3":  "Selected: supplies an enabling precaution, interpretation limit or response to a proposed check/action; check and caveat share the same availability condition.",
+                            "R1":  "Reserve: a narrower implementation or alternative wording of selected actions. Record the comparator and residual distinction; this is not semantic duplicate deletion.",
+                            "R2":  "Reserve: a distinct background configuration, broad educational, service-selection or general in-person task outside the defined relationship/checking/meeting decision functions. Not claimed fully covered.",
+                            "R3":  "Reserve: requires an additional transaction role, event, person, baseline, population or downstream administrative task not stated or needed for a selected action. Not claimed fully covered.",
+                            "R4":  "Reserve: supporter/adviser delivery principle. All eleven follow the same role rule; supportive tone remains a generation instruction."
+                        },
+    "selected_domains":  [
+                             {
+                                 "count":  5,
+                                 "domain":  "money"
+                             },
+                             {
+                                 "count":  3,
+                                 "domain":  "escalation"
+                             },
+                             {
+                                 "count":  1,
+                                 "domain":  "support"
+                             },
+                             {
+                                 "count":  20,
+                                 "domain":  "verification"
+                             },
+                             {
+                                 "count":  10,
+                                 "domain":  "privacy"
+                             },
+                             {
+                                 "count":  11,
+                                 "domain":  "relationship"
+                             },
+                             {
+                                 "count":  3,
+                                 "domain":  "platform"
+                             },
+                             {
+                                 "count":  2,
+                                 "domain":  "digital"
+                             },
+                             {
+                                 "count":  5,
+                                 "domain":  "meeting"
+                             }
+                         ],
+    "original_22_retained":  22,
+    "independent_human_adjudication":  false,
+    "eligibility_reassessed":  false,
+    "source_reverification":  false,
+    "generation_status":  "Complete: 40 new v3 first responses; current 08 v3 replaces archived v2. Independent human review pending.",
+    "target_count":  "None; count is the result of explicit item-level judgments, not an optimized quota",
+    "review_timing":  "Post-v2 methodological revision informed by prior pilot development; before v3 generation. No Survey 2 participant ratings consulted in this revision. Not retrospectively preregistered.",
+    "selection_principles_confirmed":  true,
+    "confirmation_scope":  "The project researcher confirmed the current selection principles on 30 September 2026, accepting the 60-selected/60-reserve framework for subsequent API generation. This records principle-level approval, not independent double coding or new source verification."
+}

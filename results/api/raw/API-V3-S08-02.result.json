@@ -1,0 +1,26 @@
+{
+  "task_id": "API-V3-S08-02",
+  "scenario_id": "S08",
+  "replicate": 2,
+  "response_id": "resp_0bca45ffa386c8c4016abd1d723f8887d180736071d89fe0a1",
+  "request_id": "req_4be50882b80246e19864dbbe46493ce7",
+  "model_returned": "gpt-6-astra",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 3424,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3421
+    },
+    "output_tokens": 254,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 3678
+  },
+  "ended_utc": "2026-09-30T14:32:28.248408+00:00",
+  "advice": "It makes sense to feel unsure. You’ve known Alex online for six weeks, haven’t met, and are now receiving a money request alongside intense statements of attachment. Their distress could be genuine, but this combination raises concerns about financial exploitation and emotional pressure; it does not establish fraud. Scheduling difficulties alone don’t prove deception, either.\n\nDon’t send money to an online-only romantic contact; a repayment promise doesn’t protect you from loss. You could say, “I’m sorry tonight is difficult. I can talk briefly, but I can’t help financially, and I need to log off afterward.” Alex asked for company tonight, not explicitly immediate payment. You can limit both your time and financial involvement without being unkind.\n\nBefore responding further, discuss the messages with someone you trust. If you continue the relationship, suggest a live video conversation and take things slowly; a successful call cannot prove safety or financial honesty. If Alex responds to your boundary with repeated pressure or guilt-inducing demands, step back and consider ending contact. You aren’t responsible for being their sole support.",
+  "word_count": 175,
+  "paragraph_count": 3,
+  "response_sha256": "DD88F673433993F1434D770B0F01F7E45CA87AC5A2916BCB0E930BEB8F57D759"
+}

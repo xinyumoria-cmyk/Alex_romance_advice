@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+build/
+dist/
+runs/
+.DS_Store
+Thumbs.db
+~$*.docx
+.codex/
+.aws/
+auth.json
+credentials.json

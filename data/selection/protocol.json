@@ -1,0 +1,69 @@
+{
+    "version":  "3.0",
+    "prepared_on":  "2026-09-30",
+    "status":  "AI-assisted selection; principles confirmed by project researcher on 2026-09-30",
+    "reference_count":  60,
+    "pack_file":  "prompt_pack_60.jsonl",
+    "reference_pack_sha256":  "3016EA2830BB48945620B70233AB066E50D8E45838C21E890F1CB0C5A76D3C7A",
+    "functional_review_sha256":  "2FD4C48C3FC9291F06AD041A3FE347A5F1D5EE3D8463838E96327267605921AD",
+    "corpus_sha256":  "B243A7F92BAB97BA442F1A8BD7B0D1800D1A69B09375361DA650235126C6CBB5",
+    "teacher_sha256":  "32433BD6321A9501DDB95BFB15D9160ECC80A9F58A064C3CD14BCBC197C83683",
+    "prompts":  [
+                    {
+                        "scenario_id":  "S01",
+                        "sha256":  "B6D4A55D46ED6ACDE53CFADCCDE0C719A148E9E69C2AE7DE8CF2984BF41C89F5",
+                        "word_count":  2016
+                    },
+                    {
+                        "scenario_id":  "S02",
+                        "sha256":  "41ECFEE5C52EF78321F25CEB3065538210564FD349B5ACB6E6D743D11EB848F2",
+                        "word_count":  2028
+                    },
+                    {
+                        "scenario_id":  "S03",
+                        "sha256":  "D28BB98D2242C394BA8BB2080DE3E8E588325D8B385CD73C1AA66CCC62B2A5D3",
+                        "word_count":  2043
+                    },
+                    {
+                        "scenario_id":  "S04",
+                        "sha256":  "D400D028ADD3B69A6F159C72F8EF70650086211993A64309ABD461AC1D9400F0",
+                        "word_count":  2055
+                    },
+                    {
+                        "scenario_id":  "S05",
+                        "sha256":  "5BAA6EE777A77D5D82D410833DBCF8601CC1F6B58DC5352602335BA23F1441EF",
+                        "word_count":  2044
+                    },
+                    {
+                        "scenario_id":  "S06",
+                        "sha256":  "CC3D22853818578B2A9BE425B327CF139F3B6205185785FF7D22B3AD57E4C4E7",
+                        "word_count":  2056
+                    },
+                    {
+                        "scenario_id":  "S07",
+                        "sha256":  "D958492D6B2F7A495F12FF8DB48956B8F324AF8CCAE60FAEE0CF5F786367E3B6",
+                        "word_count":  2071
+                    },
+                    {
+                        "scenario_id":  "S08",
+                        "sha256":  "6ABC99E4773286548FB62FA1EE4891056604C1FA5D7CC735A4BEA69A17A6D3BE",
+                        "word_count":  2083
+                    }
+                ],
+    "fine_tuning":  false,
+    "selection_method":  "Purposeful functional selection with explicit complementary checks and individually documented reserve decisions; qualitative researcher judgments remain necessary",
+    "selection_rules":  {
+                            "S1":  "Selected: directly supports a decision arising from the stated relationship or manipulated cue.",
+                            "S2":  "Selected: adds a distinct recipient action, exposure boundary or operational function tied to that decision, ongoing messaging, identity checking or the contemplated first meeting.",
+                            "S3":  "Selected: supplies an enabling precaution, interpretation limit or response to a proposed check/action; check and caveat share the same availability condition.",
+                            "R1":  "Reserve: a narrower implementation or alternative wording of selected actions. Record the comparator and residual distinction; this is not semantic duplicate deletion.",
+                            "R2":  "Reserve: a distinct background configuration, broad educational, service-selection or general in-person task outside the defined relationship/checking/meeting decision functions. Not claimed fully covered.",
+                            "R3":  "Reserve: requires an additional transaction role, event, person, baseline, population or downstream administrative task not stated or needed for a selected action. Not claimed fully covered.",
+                            "R4":  "Reserve: supporter/adviser delivery principle. All eleven follow the same role rule; supportive tone remains a generation instruction."
+                        },
+    "stopping_rule":  "Review every eligible item once; retain all judged S1/S2/S3 functions and their necessary companions; reserve R1/R2/R3/R4. No count target or claimed mathematical optimum.",
+    "human_validation":  "The project researcher confirmed the current selection principles on 30 September 2026, accepting the 60-selected/60-reserve framework for subsequent API generation. This records principle-level approval, not independent double coding or new source verification.",
+    "legacy_batch":  "The September 27 v2 batch used 53 references and is not relabeled as v3",
+    "human_writers":  "Unaided ordinary adults; main comparison is reference-supported AI versus unaided human advice, not equal information or intrinsic ability",
+    "selection_confirmation_file":  "selection_confirmation.json"
+}

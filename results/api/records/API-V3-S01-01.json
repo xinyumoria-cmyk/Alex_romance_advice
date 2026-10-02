@@ -1,0 +1,26 @@
+{
+  "task_id": "API-V3-S01-01",
+  "scenario_id": "S01",
+  "replicate": 1,
+  "response_id": "resp_0d7f86379568f6f0016abd1be954e087d195552453ec2e4870",
+  "request_id": "req_4cf66f6b3a1144e1beda7e90d9b2b6c3",
+  "model_returned": "gpt-6-astra",
+  "status": "completed",
+  "usage": {
+    "input_tokens": 3353,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 3350
+    },
+    "output_tokens": 206,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3559
+  },
+  "ended_utc": "2026-09-30T14:25:53.320992+00:00",
+  "advice": "It’s reasonable to feel unsure after six weeks of online contact. Alex’s daily messages and expressed connection could reflect genuine interest; work and travel constraints can also be real. Nothing you’ve described establishes deception, and Alex has not raised financial issues. Still, online-only contact leaves uncertainty about identity and compatibility, so let trust develop through consistent behaviour rather than affectionate words alone.\n\nKeep chatting if you want to, at a pace that feels comfortable; you don’t owe daily availability. Suggest a relaxed video call and discuss a realistic timeframe for meeting. A call can help you get acquainted, but it cannot prove someone is trustworthy. If you arrange a meeting, choose a busy public place and tell someone you trust your plans.\n\nKeep sensitive personal and financial information private. If a money or gift request arises later, don’t send anything to an online-only romantic contact. If persistent avoidance, conflicting stories or pressure develops, pause and talk it through with someone you trust. Current scheduling difficulties alone aren’t evidence of deliberate avoidance.",
+  "word_count": 171,
+  "paragraph_count": 3,
+  "response_sha256": "5B9C73F906A080B4199B7113AF14736D374309D81A19ACC91F78F337B5E19485"
+}
