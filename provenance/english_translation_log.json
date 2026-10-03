@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-02",
+  "scope": "English translation of research annotations and documentation; no new model calls.",
+  "annotation_schema": "Keys ending in _zh are renamed _en; these are translations, not new research judgments.",
+  "data_values_translated": 105,
+  "changes": [
+    {
+      "path": "README.md",
+      "before_sha256": "b11024ab0960eaa191e97a30bb727e6c54060b83bd962880ffce9417cd207dbc",
+      "after_sha256": "af4b1900406c7b563e5ea00bccb8d48a069a98702d820e71728959500a00404a"
+    },
+    {
+      "path": "docs/FILES.md",
+      "before_sha256": "cdc629d8a581e983711e64d3f4280d4906577448856aa9720cd51bb135dac0b5",
+      "after_sha256": "89dff7df8f50ec7a7a6893e49f588a0fc57ba8c7b722f957be33d5494dbb641b"
+    },
+    {
+      "path": "docs/PUBLICATION.md",
+      "before_sha256": "e1564daddb0b8c06dff25733f5fb178b812e46861c0c944f520befe962c376af",
+      "after_sha256": "1e9800131c9f2f48a518a39afee5a591b6b33a9f5b09275c54d34d5404f9d2cd"
+    },
+    {
+      "path": "provenance/publication_copy_log.json",
+      "before_sha256": "c3bff3df22579ef93b51b9f980c4f049529aec25f4cebd0ab8582bcbcc6f3c68",
+      "after_sha256": "b981e5b0fc67fbc6c9173dcdf096d1572049db89c9a8209a873527d6a8f5658f"
+    },
+    {
+      "path": "scripts/corpus_rules.py",
+      "before_sha256": "f04318108ed4636fc44acde34884c8884642e6d12399880ec6aee1a4edba207c",
+      "after_sha256": "6b9ce2b549afe01ccb03d167fe0f5b53b254e71befc1c90396b1e25d2885eb19"
+    },
+    {
+      "path": "scripts/reproduce.py",
+      "before_sha256": "396138ddd7ffdc26286f6de41ba53e0082ae95c8b40fa9904ca5757f2e8b86c1",
+      "after_sha256": "5cb6c62c4e50c6ceadd9c75dfd56c770aa13075c971f8ea384c3e88dcd442aef"
+    },
+    {
+      "path": "data/corpus/advice_corpus.jsonl",
+      "before_sha256": "b243a7f92bab97ba442f1a8bd7b0d1800d1a69b09375361da650235126c6cbb5",
+      "after_sha256": "ebf2f96c6169a285b2ff4b5d3b46e40e60cf556c0379f5b302ae2bca217a9ab1"
+    },
+    {
+      "path": "data/corpus/deduplication_log.jsonl",
+      "before_sha256": "927296f9a8cf05842e78aa4580e77a1ed3986a12f7ed000bc564ca128440c837",
+      "after_sha256": "8b63f6f85ab11b7ef3bdf2348d226fd82eb7974e6ea3e3e6b15c529e9f312a71"
+    },
+    {
+      "path": "data/corpus/final_review_adjustments.json",
+      "before_sha256": "913519beb9b68f80f6b9399622b3f14914e8e3618aafd4fa08fe710d06b1f83b",
+      "after_sha256": "a98504129772e4fae55f981dd849a6a3ed635813dd3dd67dbf92bbbf8ec780fe"
+    },
+    {
+      "path": "data/corpus/pair_review_log.json",
+      "before_sha256": "3b1b2acd9b597198fc0754e710972d881c7721c6f6dcb79db5cc32d368bdccf8",
+      "after_sha256": "a98504129772e4fae55f981dd849a6a3ed635813dd3dd67dbf92bbbf8ec780fe"
+    },
+    {
+      "path": "data/corpus/screening_notes.json",
+      "before_sha256": "52d05a9d34347e6f2df3fc84ffa3cbd4580c9d355fc476839ea38d1b51d1a71f",
+      "after_sha256": "bb5c1879b43802392a68fe62b946a695fb4670b4999e37222728f382f305ad79"
+    },
+    {
+      "path": "data/corpus/semantic_decisions.json",
+      "before_sha256": "fd9da5e99309947266bef81fc8577cb6aefd5f61dad04b122d3a1e8cdf188949",
+      "after_sha256": "00dbaa5987cba3fbac76b5ba1c11587ec6b84f9a11ed8365c2dc327c7e5b573c"
+    },
+    {
+      "path": "data/selection/advice_screening_288.jsonl",
+      "before_sha256": "82f15fe2d3764d50da5b51321c4fb7c1583aa2145948928a6f4099f7bcd2290f",
+      "after_sha256": "620c112f573a39e54ec3799dc084150d76fc4dc4c5b8fe7b402ae1138a139b8b"
+    },
+    {
+      "path": "data/selection/eligible_reserve.jsonl",
+      "before_sha256": "212413124a8433f559f1e030ddaf05a3558bba52a72df93698d61bc1aa798da1",
+      "after_sha256": "7eedaeb9288d3062d5e3c045d8c9887f51720866d09a7e02349cf26a79ee5aec"
+    },
+    {
+      "path": "data/selection/prompt_pack_60.jsonl",
+      "before_sha256": "3016ea2830bb48945620b70233ab066e50d8e45838c21e890f1cb0c5a76d3c7a",
+      "after_sha256": "e5206d9b077d9b4cc74d3a8e67193416f71e21a2f2062bf3a1bc96f1afec5ab8"
+    },
+    {
+      "path": "provenance/original_scripts/README.md",
+      "before_sha256": "455659e936aee32b8296be4c677ee293d11a5da1d0a00b42a24af8b7fc326031",
+      "after_sha256": "6e7243e1bad0ba530ec5b6ce44c7e57ca58ef62d25862ec8695787d871128b6d"
+    },
+    {
+      "path": "provenance/original_scripts/alex_direct_generation/docx_helpers.ps1",
+      "before_sha256": "00a4b6ca41e2bdf578034cda44815f11cd5ab1f0d4389c3f838500a3f2997db0",
+      "after_sha256": "9ff5f8d0009280321f17113b2d1e4c78d414d1dae45e767292821c353886ee3b"
+    },
+    {
+      "path": "provenance/original_scripts/corpus_work/build_corpus.py",
+      "before_sha256": "769abb347ee2df6c81c6c9d9edd2995099b4ad9e7ac93ff62aa7ba298e7d2a96",
+      "after_sha256": "486d01a69602ecc3038db3539297ac7fffa53061bc9e85bc0761f0d7497436ce"
+    },
+    {
+      "path": "results/api/raw/local_socket_denial/API-V3-S01-05.error.json",
+      "before_sha256": "0c1c0f026987200bd5a6badd746c8d3b7d79b2fb186be72c6b6fa98739e21067",
+      "after_sha256": "c832a3ff5e7293772ddfdd38f2b7ef7c37c240acbfb36fcb4fdccb8ce2cbaab0"
+    }
+  ],
+  "advice_outputs_unchanged": 80,
+  "prompts_unchanged": true,
+  "word_files_unchanged": true
+}

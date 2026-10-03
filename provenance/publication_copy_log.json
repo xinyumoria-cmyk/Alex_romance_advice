@@ -17,36 +17,46 @@
     "source": "romance_scam_corpus/advice_corpus.jsonl",
     "destination": "data/corpus/advice_corpus.jsonl",
     "original_sha256": "b243a7f92bab97ba442f1a8bd7b0d1800d1a69b09375361da650235126c6cbb5",
-    "published_sha256": "b243a7f92bab97ba442f1a8bd7b0d1800d1a69b09375361da650235126c6cbb5",
-    "changed_for_publication": false
+    "published_sha256": "ebf2f96c6169a285b2ff4b5d3b46e40e60cf556c0379f5b302ae2bca217a9ab1",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "b243a7f92bab97ba442f1a8bd7b0d1800d1a69b09375361da650235126c6cbb5",
+    "english_annotation_translation": true
   },
   {
     "source": "romance_scam_corpus/deduplication_log.jsonl",
     "destination": "data/corpus/deduplication_log.jsonl",
     "original_sha256": "927296f9a8cf05842e78aa4580e77a1ed3986a12f7ed000bc564ca128440c837",
-    "published_sha256": "927296f9a8cf05842e78aa4580e77a1ed3986a12f7ed000bc564ca128440c837",
-    "changed_for_publication": false
+    "published_sha256": "8b63f6f85ab11b7ef3bdf2348d226fd82eb7974e6ea3e3e6b15c529e9f312a71",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "927296f9a8cf05842e78aa4580e77a1ed3986a12f7ed000bc564ca128440c837",
+    "english_annotation_translation": true
   },
   {
     "source": "romance_scam_corpus/semantic_decisions.json",
     "destination": "data/corpus/semantic_decisions.json",
     "original_sha256": "fd9da5e99309947266bef81fc8577cb6aefd5f61dad04b122d3a1e8cdf188949",
-    "published_sha256": "fd9da5e99309947266bef81fc8577cb6aefd5f61dad04b122d3a1e8cdf188949",
-    "changed_for_publication": false
+    "published_sha256": "00dbaa5987cba3fbac76b5ba1c11587ec6b84f9a11ed8365c2dc327c7e5b573c",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "fd9da5e99309947266bef81fc8577cb6aefd5f61dad04b122d3a1e8cdf188949",
+    "english_annotation_translation": true
   },
   {
     "source": "romance_scam_corpus/pair_review_log.json",
     "destination": "data/corpus/pair_review_log.json",
     "original_sha256": "3b1b2acd9b597198fc0754e710972d881c7721c6f6dcb79db5cc32d368bdccf8",
-    "published_sha256": "3b1b2acd9b597198fc0754e710972d881c7721c6f6dcb79db5cc32d368bdccf8",
-    "changed_for_publication": false
+    "published_sha256": "a98504129772e4fae55f981dd849a6a3ed635813dd3dd67dbf92bbbf8ec780fe",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "3b1b2acd9b597198fc0754e710972d881c7721c6f6dcb79db5cc32d368bdccf8",
+    "english_annotation_translation": true
   },
   {
     "source": "romance_scam_corpus/screening_notes.json",
     "destination": "data/corpus/screening_notes.json",
     "original_sha256": "52d05a9d34347e6f2df3fc84ffa3cbd4580c9d355fc476839ea38d1b51d1a71f",
-    "published_sha256": "52d05a9d34347e6f2df3fc84ffa3cbd4580c9d355fc476839ea38d1b51d1a71f",
-    "changed_for_publication": false
+    "published_sha256": "bb5c1879b43802392a68fe62b946a695fb4670b4999e37222728f382f305ad79",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "52d05a9d34347e6f2df3fc84ffa3cbd4580c9d355fc476839ea38d1b51d1a71f",
+    "english_annotation_translation": true
   },
   {
     "source": "romance_scam_corpus/collection_report.json",
@@ -66,8 +76,10 @@
     "source": "corpus_work/final_review_adjustments.json",
     "destination": "data/corpus/final_review_adjustments.json",
     "original_sha256": "913519beb9b68f80f6b9399622b3f14914e8e3618aafd4fa08fe710d06b1f83b",
-    "published_sha256": "913519beb9b68f80f6b9399622b3f14914e8e3618aafd4fa08fe710d06b1f83b",
-    "changed_for_publication": false
+    "published_sha256": "a98504129772e4fae55f981dd849a6a3ed635813dd3dd67dbf92bbbf8ec780fe",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "913519beb9b68f80f6b9399622b3f14914e8e3618aafd4fa08fe710d06b1f83b",
+    "english_annotation_translation": true
   },
   {
     "source": "alex_reference_materials/review_v2/decisions.tsv",
@@ -87,22 +99,28 @@
     "source": "alex_reference_materials/review_v3/advice_screening_288.jsonl",
     "destination": "data/selection/advice_screening_288.jsonl",
     "original_sha256": "82f15fe2d3764d50da5b51321c4fb7c1583aa2145948928a6f4099f7bcd2290f",
-    "published_sha256": "82f15fe2d3764d50da5b51321c4fb7c1583aa2145948928a6f4099f7bcd2290f",
-    "changed_for_publication": false
+    "published_sha256": "620c112f573a39e54ec3799dc084150d76fc4dc4c5b8fe7b402ae1138a139b8b",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "82f15fe2d3764d50da5b51321c4fb7c1583aa2145948928a6f4099f7bcd2290f",
+    "english_annotation_translation": true
   },
   {
     "source": "alex_reference_materials/review_v3/prompt_pack_60.jsonl",
     "destination": "data/selection/prompt_pack_60.jsonl",
     "original_sha256": "3016ea2830bb48945620b70233ab066e50d8e45838c21e890f1cb0c5a76d3c7a",
-    "published_sha256": "3016ea2830bb48945620b70233ab066e50d8e45838c21e890f1cb0c5a76d3c7a",
-    "changed_for_publication": false
+    "published_sha256": "e5206d9b077d9b4cc74d3a8e67193416f71e21a2f2062bf3a1bc96f1afec5ab8",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "3016ea2830bb48945620b70233ab066e50d8e45838c21e890f1cb0c5a76d3c7a",
+    "english_annotation_translation": true
   },
   {
     "source": "alex_reference_materials/review_v3/eligible_reserve.jsonl",
     "destination": "data/selection/eligible_reserve.jsonl",
     "original_sha256": "212413124a8433f559f1e030ddaf05a3558bba52a72df93698d61bc1aa798da1",
-    "published_sha256": "212413124a8433f559f1e030ddaf05a3558bba52a72df93698d61bc1aa798da1",
-    "changed_for_publication": false
+    "published_sha256": "7eedaeb9288d3062d5e3c045d8c9887f51720866d09a7e02349cf26a79ee5aec",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "212413124a8433f559f1e030ddaf05a3558bba52a72df93698d61bc1aa798da1",
+    "english_annotation_translation": true
   },
   {
     "source": "alex_reference_materials/review_v3/scenario_applicability_2304.jsonl",
@@ -3328,8 +3346,10 @@
     "source": "alex_api_generation_v3/raw/local_socket_denial/API-V3-S01-05.error.json",
     "destination": "results/api/raw/local_socket_denial/API-V3-S01-05.error.json",
     "original_sha256": "0c1c0f026987200bd5a6badd746c8d3b7d79b2fb186be72c6b6fa98739e21067",
-    "published_sha256": "0c1c0f026987200bd5a6badd746c8d3b7d79b2fb186be72c6b6fa98739e21067",
-    "changed_for_publication": false
+    "published_sha256": "c832a3ff5e7293772ddfdd38f2b7ef7c37c240acbfb36fcb4fdccb8ce2cbaab0",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "0c1c0f026987200bd5a6badd746c8d3b7d79b2fb186be72c6b6fa98739e21067",
+    "english_annotation_translation": true
   },
   {
     "source": "alex_api_generation_v3/requests/API-V3-S01-01.json",
@@ -3706,8 +3726,10 @@
     "source": "corpus_work/build_corpus.py",
     "destination": "provenance/original_scripts/corpus_work/build_corpus.py",
     "original_sha256": "769abb347ee2df6c81c6c9d9edd2995099b4ad9e7ac93ff62aa7ba298e7d2a96",
-    "published_sha256": "769abb347ee2df6c81c6c9d9edd2995099b4ad9e7ac93ff62aa7ba298e7d2a96",
-    "changed_for_publication": false
+    "published_sha256": "486d01a69602ecc3038db3539297ac7fffa53061bc9e85bc0761f0d7497436ce",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "769abb347ee2df6c81c6c9d9edd2995099b4ad9e7ac93ff62aa7ba298e7d2a96",
+    "english_annotation_translation": true
   },
   {
     "source": "alex_reference_materials/review_v2/build_review.ps1",
@@ -3734,8 +3756,10 @@
     "source": "alex_direct_generation/docx_helpers.ps1",
     "destination": "provenance/original_scripts/alex_direct_generation/docx_helpers.ps1",
     "original_sha256": "00a4b6ca41e2bdf578034cda44815f11cd5ab1f0d4389c3f838500a3f2997db0",
-    "published_sha256": "00a4b6ca41e2bdf578034cda44815f11cd5ab1f0d4389c3f838500a3f2997db0",
-    "changed_for_publication": false
+    "published_sha256": "9ff5f8d0009280321f17113b2d1e4c78d414d1dae45e767292821c353886ee3b",
+    "changed_for_publication": true,
+    "pre_english_published_sha256": "00a4b6ca41e2bdf578034cda44815f11cd5ab1f0d4389c3f838500a3f2997db0",
+    "english_annotation_translation": true
   },
   {
     "source": "alex_direct_generation_v3/run.ps1",

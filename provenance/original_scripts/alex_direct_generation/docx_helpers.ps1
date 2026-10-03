@@ -8,9 +8,9 @@ $out=Join-Path $root 'Word versions'
 $utf=[Text.UTF8Encoding]::new($false)
 $w='http://schemas.openxmlformats.org/wordprocessingml/2006/main'
 $rns='http://schemas.openxmlformats.org/officeDocument/2006/relationships'
-$scopeNames=@{core='关系防骗与账户防护';recovery='受骗后止损与恢复';support='亲友／支持者建议';sextortion='私密影像与勒索';dating_safety='交友平台与会面安全';investment='关系投资／加密骗局'}
-$stageNames=@{prevention='预防';suspicion='怀疑／核查';recovery='止损／恢复';support='支持他人'}
-$contextNames=@{romance_specific='直接涉及恋爱诈骗';dating_safety='交友安全';adjacent_scam_or_recovery_mechanism='相关诈骗机制或恢复支持'}
+$scopeNames=@{core='Relationship-scam prevention and account protection';recovery='Post-scam harm limitation and recovery';support='Advice for friends, relatives and supporters';sextortion='Intimate images and blackmail';dating_safety='Dating-platform and meeting safety';investment='Relationship-based investment and cryptocurrency scams'}
+$stageNames=@{prevention='Prevention';suspicion='Suspicion and verification';recovery='Harm limitation and recovery';support='Supporting others'}
+$contextNames=@{romance_specific='Romance-scam-specific';dating_safety='Dating safety';adjacent_scam_or_recovery_mechanism='Related scam mechanisms or recovery support'}
 $script:coverage=[Collections.Generic.List[object]]::new()
 $script:checks=[Collections.Generic.List[object]]::new()
 function Load($path){ConvertFrom-Json -InputObject ([IO.File]::ReadAllText((Join-Path $root $path),[Text.Encoding]::UTF8))}
@@ -59,12 +59,12 @@ function Add-Table($headers,$records,$widths){
  Add-P '' 'Spacer'
 }
 function Add-Sources($sources){
- Add-Break;Add-P '来源目录' 'Heading1'
- Add-P '编号对应语料表“来源及定位”栏。链接指向原始公开页面；L／P 定位沿用当时获取的文本／PDF，网页更新后可能变化。访问日期不是发布日期。'
+ Add-Break;Add-P 'Source directory' 'Heading1'
+ Add-P 'IDs correspond to the corpus source and locator column. Links point to original public pages; L/P locators refer to retrieved text/PDF snapshots and may change with website updates. Access dates are not publication dates.'
  foreach($s in $sources){
   Add-P ($s.id+' | '+$s.org+' | '+$s.title) 'SourceHeading' $true
   Add-Link $s.url $s.url 'Small'
-  Add-P ('地区：'+$s.jurisdiction+'；来源类型：'+$s.type+'；访问日期：'+$s.accessed_on+'；背景：'+$contextNames[$s.source_context]) 'Small'
+  Add-P ('Jurisdiction: '+$s.jurisdiction+'; Source type: '+$s.type+'; Accessed: '+$s.accessed_on+'; Context: '+$contextNames[$s.source_context]) 'Small'
  }
 }
 function Finish-Doc($sourceHtml=@()){

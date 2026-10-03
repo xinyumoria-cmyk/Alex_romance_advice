@@ -3,42 +3,42 @@
     "source_id": "S015",
     "item": "Geographic stereotyping in military impersonation warning",
     "decision": "not_extracted",
-    "reason_zh": "不把来自某地区本身当作诈骗证据。"
+    "reason_en": "A person's geographic origin is not treated as evidence of fraud."
   },
   {
     "source_id": "S015",
     "item": "Requested customized photograph as an identity check",
     "decision": "not_extracted",
-    "reason_zh": "未将定制照片当作可靠的身份保证；采用其他来源的有限证据表述。"
+    "reason_en": "Customized photographs are not treated as reliable identity guarantees; limited-evidence wording from other sources is used."
   },
   {
     "source_id": "S022",
     "item": "Alcohol and sexual-health advice",
     "decision": "not_extracted",
-    "reason_zh": "超出本项目恋爱诈骗及其直接风险范围。"
+    "reason_en": "Outside the scope of romance scams and their direct risks in this project."
   },
   {
     "url": "https://bumble.com/the-buzz/bumble-protect-information",
     "item": "Platform privacy marketing page",
     "decision": "source_not_included",
-    "reason_zh": "读取部分主要是企业做法介绍，没有提取适用的个人行动建议。"
+    "reason_en": "The retrieved material mainly described company practices; no applicable individual action advice was extracted."
   },
   {
     "url": "https://www.barclays.co.uk/help/security-fraud/latest-scams/",
     "item": "Bank page with incomplete retrieval",
     "decision": "source_not_included",
-    "reason_zh": "未用不完整页面作为最终条目依据。"
+    "reason_en": "An incompletely retrieved page was not used as the basis for final entries."
   },
   {
     "source_id": "S034",
     "item": "Deletion of original image after hashing",
     "decision": "not_extracted",
-    "reason_zh": "避免在未处理报案证据需求时诱导删除原始材料。"
+    "reason_en": "Avoid encouraging deletion of original material before addressing evidence needs for reporting."
   },
   {
     "source_id": "S026",
     "item": "loss_limit_plan",
     "decision": "candidate_excluded",
-    "reason_zh": "一般合法投资的风险预算，和恋爱诈骗防范关系过弱，排除。"
+    "reason_en": "Excluded: general risk budgeting for legitimate investment is insufficiently related to romance-scam prevention."
   }
 ]

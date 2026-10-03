@@ -29,3 +29,7 @@
 Text-body preservation is checked independently of JSON serialization and CRLF/LF normalization. Original `.txt` hashes are checked on bytes. Prompts are rebuilt and checked on bytes. `.gitattributes` disables automatic line-ending changes so Git checkouts preserve those hashes.
 
 `checks_40.json` and other historical check files contain original-workspace hashes/paths that may differ from publication-copy metadata. The release manifest and publication copy log are authoritative for the packaged files; the historical hashes are retained as provenance rather than overwritten.
+
+## English annotation edition
+
+Research annotations and explanatory code strings have been translated into English. Language-specific keys use `_en`. Generation prompts, actual API request bodies and all response texts are byte-preserved. Original-run hashes in protocols refer to their original artifacts, while the current manifest identifies this translated distribution. The translation log records changed-file hashes.

@@ -10,3 +10,7 @@ This package is prepared for uploading to a repository; it does not itself publi
 - API use was stopped at the user's request. The original runner remains stopped. Packaged live-run tooling requires explicit opt-in, new credentials or account login, and a new output directory. No live generation was performed for packaging.
 
 All API response and CLI event files included here are historical records. They are not a newly generated batch. Future `runs/` output is ignored by Git and ZIP packaging; curate, scan and document any future result release explicitly.
+
+## English-language update
+
+The English edition translates research annotations, explanatory code strings, and the message of one failed local socket attempt. The error code and attempt status are unchanged. Historical scripts are translated implementation copies rather than byte-identical source snapshots. No advice wording, selection outcome, scenario, prompt, successful API response, or Word file was changed. Before/after hashes are recorded in `provenance/english_translation_log.json`.

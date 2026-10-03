@@ -1,46 +1,46 @@
 # Alex advice study — reference v3
 
-[English methods and limitations](docs/METHODS.md) · [File guide](docs/FILES.md) · [Publication notes](docs/PUBLICATION.md)
+[Methods and limitations](docs/METHODS.md) · [File guide](docs/FILES.md) · [Publication notes](docs/PUBLICATION.md)
 
-用于复核和重现 v3 的研究项目包。包含原始候选、语料、筛选决定、情景、提示词，以及两批各 40 条原始建议。**没有参与者数据，没有 API 密钥，没有已完成的模型微调。**
+A reproducibility package containing candidate extractions, the advice corpus, selection decisions, scenarios, prompts, and two batches of 40 original responses. **No participant data, API keys, or completed model fine-tuning are included.**
 
-## 一条命令运行离线流程
+## Run the offline workflow
 
-需要 Python 3.10 或更新版本，无第三方 Python 依赖。Windows、macOS、Linux 使用相同命令。
+Python 3.10 or newer is required. No third-party Python packages are needed. Run the following command from the directory containing this README on Windows, macOS, or Linux:
 
 ```bash
 python scripts/reproduce.py
 ```
 
-请先进入本 README 所在目录。运行结果位于 `build/`：288 条语料、60 条入选、60 条备用、2,304 条情景适用性记录、八个逐字节匹配的提示词、两批建议的 JSONL/CSV、归档 Word 副本及校验报告。这个命令不联网、不调用模型，也不会修改 `data/`、`results/`、`documents/`。
+The `build/` directory will contain the reconstructed 288-entry corpus, 60 selected entries, 60 reserves, 2,304 scenario-applicability records, eight byte-matched prompts, both response batches in JSONL/CSV, archived Word copies, and a verification report. This command makes no network or model calls and does not modify `data/`, `results/`, or `documents/`.
 
-| 步骤 | 输入 → 输出 | 重现性质 |
+| Stage | Input → output | What is reproduced |
 |---|---|---|
-| 来源收集与提取 | 46 个公开来源 → 382 条候选转述 | 已保存候选、来源 URL、定位和访问日期；原网页全文未分发 |
-| 语义去重 | 382 → 288 保留＋93 合并＋1 排除 | 重放已记录的 AI 辅助判断；不是新运行的语义模型 |
-| 适用性筛选 | 288 → 120 适用／有条件适用＋168 不适用 | 重放逐条规则，并生成八情景适用性矩阵 |
-| 功能筛选 | 120 → 60 入选＋60 备用 | 重放功能、对照 ID、理由；60 不是预设配额 |
-| 提示词 | 同一套 60 条材料＋各情景＋统一写作要求 | 八个提示词与原始生成输入逐字节相同 |
-| Codex 结果 | 8 情景 × 5 次独立调用 → 40 条 | 原始响应、事件和参数记录与 08 Word 核对 |
-| API 结果 | 8 情景 × 5 次独立调用 → 40 条 | 原始请求、响应和 token 用量与 10 Word 核对 |
+| Collection and extraction | 46 public sources → 382 candidate paraphrases | Saved candidates, source URLs, locators and access dates; full source pages are not distributed |
+| Semantic deduplication | 382 → 288 retained + 93 merged + 1 excluded | Replay of recorded AI-assisted judgments, not a new semantic-model assessment |
+| Eligibility screening | 288 → 120 eligible/conditionally eligible + 168 outside scope | Recorded item-level rules expanded across eight scenarios |
+| Functional selection | 120 → 60 selected + 60 reserves | Functions, comparison IDs and reasons; 60 was not a preset quota |
+| Prompts | Common 60-entry pack + scenario + writing instructions | Eight prompts reproduced byte-for-byte against the actual inputs |
+| Codex batch | Eight scenarios × five independent calls → 40 responses | Original responses, events and parameter records checked against Word document 08 |
+| API batch | Eight scenarios × five independent calls → 40 responses | Original requests, responses and token usage checked against Word document 10 |
 
-**关于“GPT 网页版”：** 项目中此前这样称呼的 v3 批次，实际记录为 **Codex CLI，通过 ChatGPT 账户登录**；不是在 ChatGPT 浏览器页面手工输入。仓库命名为 `codex_chatgpt`，不将它错误标成浏览器实验。其 CLI 记录请求了 `gpt-6-astra`，推理强度 `medium`，但未独立核实服务端具体快照。
+**Interface clarification:** the v3 batch previously referred to informally as the web version was actually generated using **Codex CLI authenticated through a ChatGPT account**, not by manually entering prompts in the ChatGPT browser interface. It is labeled `codex_chatgpt`. The CLI requested `gpt-6-astra` with `medium` reasoning effort; its exact serving snapshot was not independently verified.
 
-## 查看材料
+## Browse the materials
 
-| 文件夹 | 内容 |
+| Directory | Contents |
 |---|---|
-| `data/corpus/` | 382 条候选、288 条语料、46 个来源、去重映射与措辞决定 |
-| `data/selection/` | 288 条适用性决定、120 条功能筛选决定、60 入选／60 备用 |
-| `data/scenarios.json`、`data/prompts/` | 八个情景、完整生成要求和参考材料 |
-| `results/codex_chatgpt/` | Codex 登录方式生成的 40 条及原始事件 |
-| `results/api/` | API 生成的 40 条、原始请求／响应与记录 |
-| `documents/` | 01、02、07、08、10 Word 和老师原始情景文档 |
-| `provenance/` | 原始脚本、发布副本日志和离线核验结果 |
+| `data/corpus/` | 382 candidates, 288 corpus entries, 46 sources, merge mappings and wording decisions |
+| `data/selection/` | 288 eligibility decisions, 120 functional decisions, 60 selected entries and 60 reserves |
+| `data/scenarios.json`, `data/prompts/` | Eight scenarios, complete writing instructions and references |
+| `results/codex_chatgpt/` | 40 Codex responses and original events |
+| `results/api/` | 40 API responses, original request/response bodies and records |
+| `documents/` | Word documents 01, 02, 07, 08 and 10, plus the teacher's original scenario document |
+| `provenance/` | Historical implementation copies, publication logs and verification results |
 
-08 与 10 是两个不同渠道的生成批次，不能合并为每情景十条同质重复；10 是当前 API 原始输出。原始 40 条正文没有因研究备注被修改或挑选。API 结果中的观察日志是 Codex 辅助记录，并非独立人工验证、质量分数或自动删除规则。**文末研究备注不展示给评价者。**
+Documents 08 and 10 represent different generation interfaces; they must not be pooled as ten equivalent replications per scenario. Document 10 contains the current API outputs. Neither batch was rewritten or selected in response to the observation notes. The API observation log is Codex-assisted commentary, not independent human validation, quality scoring, or an automatic exclusion rule. **Researcher-only notes must not be shown to survey evaluators.**
 
-## 验证与重新打包
+## Verify and package
 
 ```bash
 python -m unittest discover -s tests -v
@@ -48,43 +48,43 @@ python scripts/package.py --verify
 python scripts/package.py
 ```
 
-`--verify` 检查当前发布版的文件清单、SHA-256 和凭据模式。修改代码／数据后应先核查改动，再运行不带 `--verify` 的打包命令，重新产生清单和 ZIP。ZIP 位于 `dist/alex-advice-v3.zip`，不含派生的 `build/`、新生成的 `runs/`、密钥或 Git 历史。
+`--verify` checks the current release inventory, SHA-256 hashes and credential patterns. After intentional code or data changes, inspect those changes and run the packaging command without `--verify` to regenerate the inventory and ZIP. The archive is written to `dist/alex-advice-v3.zip`; it excludes derived `build/` files, new `runs/` output, credentials and Git history.
 
-## 准备新一轮生成：默认不调用模型
+## Prepare a new generation without calling a model
 
 ```bash
 python scripts/generate.py --channel api --output runs/api-preview
 python scripts/generate.py --channel codex_chatgpt --output runs/codex-preview
 ```
 
-以上仅生成 40 个请求文件和新运行协议。输出目录必须是尚不存在的 `runs/` 子目录；不得覆盖原始记录。可以用 `--scenarios S01 S02` 只准备两个情景。五次调用相互独立，输入相同，不提示“与上一条不同”。
+These commands only prepare 40 request files and a new run protocol. Choose a new, nonexistent output directory under `runs/`. Archived records cannot be overwritten. Use `--scenarios S01 S02` to prepare only those scenarios. Each scenario has five independent requests with identical inputs; later requests are not instructed to differ from earlier ones.
 
-## 重新调用模型：单独选择
+## Optional live generation
 
-历史项目的 API key 已停止使用，仓库不包含它，也不会自动恢复使用。
+The historical API key was disabled for use in this project. It is not included and is not automatically reused.
 
-如在未来决定使用**自己的新密钥**重跑，确认有对应模型权限和余额后执行：
+To run a new batch with **your own new credentials**, first ensure that your account has access to the requested model and sufficient API credit, then run:
 
 ```bash
 python scripts/generate.py --channel api --output runs/api-new --execute --allow-paid-api
 ```
 
-未设置 `OPENAI_API_KEY` 时，脚本会隐藏输入密钥；不保存密钥。不需要把密钥写进代码、README 或 GitHub。发生错误／截断后保留记录并停止，不自动重试、换模型或改写建议。
+If `OPENAI_API_KEY` is not set, the script requests a key through a hidden prompt and does not save it. Do not place keys in code, documentation, or GitHub. Errors or incomplete outputs are retained and stop the run; there is no automatic retry, model substitution, or advice rewriting.
 
-新运行会逐条保存请求、原始响应、记录，并导出 `generated_advice.jsonl`、`generated_advice.csv` 和 `format_checks.json`。格式检查不替代情景核查，也不自动改写或删除超出要求的输出。
+New runs retain each request, raw response and record, and export `generated_advice.jsonl`, `generated_advice.csv`, and `format_checks.json`. Format checks do not replace contextual review or automatically edit or discard responses outside the requested format.
 
-Codex 新生成使用自己的 ChatGPT 登录：
+For a new Codex batch, authenticate using your own ChatGPT account:
 
 ```bash
 codex login
 python scripts/generate.py --channel codex_chatgpt --output runs/codex-new --execute
 ```
 
-历史 CLI 为 `0.155.0-alpha.16.3`。不同版本可能不支持同一组隔离参数；脚本会保留错误并停止，不静默移除隔离要求。新调用不保证得到相同文本。**本次发布实际验证了离线重放、请求准备与模拟网络测试，没有使用已停用密钥开展新的付费测试。**
+The historical CLI version was `0.155.0-alpha.16.3`. Other versions may not support the same isolation options; failures are retained rather than silently weakening isolation. New model calls are not guaranteed to produce identical text. **Release validation covers offline replay, request preparation and mocked network tests; no new paid calls were made with the disabled key.**
 
-## 上传 GitHub
+## Upload to GitHub
 
-只上传这个项目文件夹内的内容，不要上传原桌面工作区或已有的其他 ZIP。可解压发布包后在 GitHub 新建空仓库，再从项目目录执行：
+Upload this project directory, not the original desktop workspace or unrelated archives. For a new local repository and an empty GitHub repository:
 
 ```bash
 git init
@@ -95,10 +95,12 @@ git remote add origin https://github.com/YOUR_ACCOUNT/YOUR_REPOSITORY.git
 git push -u origin main
 ```
 
-替换 `YOUR_ACCOUNT/YOUR_REPOSITORY`。本次交付不创建或发布远程仓库。GitHub Actions 会在 Windows/Linux 上运行离线复现、测试及清单检查，不需要配置任何模型密钥。
+Replace `YOUR_ACCOUNT/YOUR_REPOSITORY`. If the repository is already initialized, stage and commit only the intended updates instead of repeating initialization. Packaging does not publish remotely. GitHub Actions runs offline reproduction, tests and inventory checks on Windows/Linux, without model credentials.
 
-## 研究边界
+## Research and translation boundaries
 
-主比较是**参考材料辅助 AI**与**普通成年人自主撰写的建议**；不能单独归因于 AI／人类本身能力。五次同情景输出可高度相似，不等于五种不同策略。本包仅覆盖已经完成的材料准备与生成，不含尚未收集的人类问卷数据或评价实验结果。
+The main comparison is **reference-supported AI advice versus independently written advice from ordinary adults**. Differences cannot be attributed solely to intrinsic AI or human ability. Five responses to one scenario may be highly similar; they do not necessarily represent five different strategies. This package covers completed material preparation and generation, not future human-response collection or evaluation-study findings.
 
-在相同已记录判断下可以重建语料、参考材料、提示词，并验证历史输出；不能保证重新检索网页、重新做判断或重新调用云模型后仍逐字相同。
+Recorded decisions support reconstruction of the corpus, references and prompts, and verification of historical outputs. Re-fetching websites, re-adjudicating decisions or calling a cloud model again is not guaranteed to yield identical results.
+
+This English release translates research annotations, explanatory text and one historical operating-system error message. Annotation keys ending in `_zh` are renamed `_en`, and replay scripts use the same translations. The English advice corpus text, eight scenarios, generation instructions, actual request bodies and all 80 advice texts are unchanged. `provenance/english_translation_log.json` records before/after file hashes. Historical generation-time hashes remain historical; `MANIFEST.sha256.json` identifies the current English release.

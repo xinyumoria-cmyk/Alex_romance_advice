@@ -10,7 +10,7 @@
       "text_a": "Search the claimed occupation with scam-related terms to compare reported stories.",
       "text_b": "Search the person's claimed name alongside scam-related terms.",
       "decision": "merge",
-      "reason_zh": "合并：均为用人物信息加诈骗词检索已报道骗局；姓名和职业作为查询变体保留。"
+      "reason_en": "Merge: both search for reported scams using personal details plus scam-related terms; name and occupation remain query variants."
     },
     {
       "key_a": "report_consumer_agency",
@@ -19,7 +19,7 @@
       "text_a": "Report suspected romance fraud through the official consumer-protection reporting service.",
       "text_b": "Report romance-fraud victimization through the official cybercrime reporting channel.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：消费者保护机构与网络犯罪举报机关的受理渠道不同。"
+      "reason_en": "Retain separately: consumer-protection agencies and cybercrime-reporting authorities use different reporting channels."
     },
     {
       "key_a": "no_money_mule",
@@ -28,7 +28,7 @@
       "text_a": "Refuse to move another person's money through your accounts.",
       "text_b": "Reject instructions to move money to another account supposedly to keep it safe.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：前者是替他人转移款项，后者是冒充机构诱使转移自己的资金。"
+      "reason_en": "Retain separately: one concerns transferring money for others; the other concerns impersonated authorities inducing a person to transfer their own funds."
     },
     {
       "key_a": "threatened_breakup",
@@ -37,7 +37,7 @@
       "text_a": "Treat anger or breakup threats in response to questions as coercive warning signs.",
       "text_b": "Treat anger or threats over your withdrawal request as a serious warning.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：情感胁迫针对关系决策，提现阻碍针对已进入投资平台的退出。"
+      "reason_en": "Retain separately: emotional coercion concerns relationship decisions, while withdrawal barriers concern exiting an investment platform already in use."
     },
     {
       "key_a": "assess_exposed_details",
@@ -46,7 +46,7 @@
       "text_a": "Check whether the offender knows the victim's address or sensitive financial details.",
       "text_b": "Seek local police advice if the offender knows the person's physical address.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：检查已暴露信息与因地址暴露寻求警方帮助是不同动作。"
+      "reason_en": "Retain separately: checking exposed information and seeking police assistance because of address exposure are different actions."
     },
     {
       "key_a": "public_personal_details",
@@ -55,7 +55,7 @@
       "text_a": "Limit public personal details that could help strangers tailor a romantic approach.",
       "text_b": "Limit public access to voice recordings and personal images that could support impersonation.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：公开个人资料用于定制话术，声音影像还可能被用于生成冒充身份；保护对象和目的不同。"
+      "reason_en": "Retain separately: public personal information can enable tailored approaches, while voice or image material may also enable generated impersonation; the protected material and purposes differ."
     },
     {
       "key_a": "unexpected_bills",
@@ -64,7 +64,7 @@
       "text_a": "Report unfamiliar bills to your bank as possible identity misuse.",
       "text_b": "Report identity misuse and obtain the police report or reference.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：联系银行处理异常账单与取得警方身份滥用记录，受理方和结果不同。"
+      "reason_en": "Retain separately: contacting a bank about anomalous bills and obtaining a police record of identity misuse involve different recipients and outcomes."
     },
     {
       "key_a": "address_exposure_police",
@@ -73,7 +73,7 @@
       "text_a": "Seek local police advice if the offender knows the person's physical address.",
       "text_b": "Contact local police promptly when a scammer threatens physical harm.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：地址泄露后的咨询与收到人身威胁后的紧急报案，触发条件与紧急性不同。"
+      "reason_en": "Retain separately: seeking advice after address disclosure and making an emergency report after a physical threat have different triggers and urgency."
     },
     {
       "key_a": "no_money_mule",
@@ -82,7 +82,7 @@
       "text_a": "Refuse to move another person's money through your accounts.",
       "text_b": "Refuse to borrow money for an online romantic contact.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：替他人转移已有资金与以自己的名义借贷，是不同财务风险。"
+      "reason_en": "Retain separately: moving existing funds for others and borrowing in one's own name pose different financial risks."
     },
     {
       "key_a": "no_accounts_for_contact",
@@ -91,7 +91,7 @@
       "text_a": "Refuse requests to open bank accounts or companies for an online contact.",
       "text_b": "Do not open replacement accounts after a bank flags the contact's transactions.",
       "decision": "merge",
-      "reason_zh": "合并：补开账户仍是为可疑联系人开立账户，银行已警告作为具体条件保留。"
+      "reason_en": "Merge: opening a replacement account still means opening an account for a suspicious contact; a prior bank warning is retained as a specific condition."
     },
     {
       "key_a": "scam_call_filter",
@@ -100,7 +100,7 @@
       "text_a": "In Singapore, use ScamShield to filter suspected scam texts and calls.",
       "text_b": "If unsure in Singapore, call the official ScamShield helpline at 1799 for a scam check.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：自动拦截工具与人工热线核查是不同措施。"
+      "reason_en": "Retain separately: automated blocking tools and manual hotline checks are different measures."
     },
     {
       "key_a": "no_identity_documents",
@@ -109,7 +109,7 @@
       "text_a": "Keep identity documents and government identification numbers from unverified online romantic contacts.",
       "text_b": "Keep banking and card information from online-only romantic contacts.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：身份证件披露与银行支付信息披露涉及不同信息对象。"
+      "reason_en": "Retain separately: disclosing identity documents and disclosing bank-payment information concern different information categories."
     },
     {
       "key_a": "right_refuse",
@@ -118,7 +118,7 @@
       "text_a": "Decline uncomfortable requests even after matching or beginning a conversation.",
       "text_b": "Respect that the person may initially decline the conversation.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：前者是潜在受骗者拒绝不适请求，后者是支持者尊重受助人暂不谈话。"
+      "reason_en": "Retain separately: one concerns a potential victim declining uncomfortable requests; the other concerns a supporter respecting a person's temporary unwillingness to talk."
     },
     {
       "key_a": "no_money_unmet",
@@ -127,7 +127,7 @@
       "text_a": "Do not send money, gifts or gift-card codes to an online-only romantic contact, including through an intermediary.",
       "text_b": "Keep banking and card information from online-only romantic contacts.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：资金转出与支付信息披露是不同动作。"
+      "reason_en": "Retain separately: transferring funds and disclosing payment information are different actions."
     },
     {
       "key_a": "different_profile_photo",
@@ -136,7 +136,7 @@
       "text_a": "Use dating photographs that are not reused on your public social profiles.",
       "text_b": "Avoid linking dating profiles to personal social-media accounts.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：更换复用照片和解除平台账号链接是不同隐私设置。"
+      "reason_en": "Retain separately: replacing reused photos and unlinking platform accounts are different privacy measures."
     },
     {
       "key_a": "no_bank_details",
@@ -145,7 +145,7 @@
       "text_a": "Keep banking and card information from online-only romantic contacts.",
       "text_b": "Keep your bank login credentials private, including from romantic contacts.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：支付详情与银行登录凭据所授予的访问权限不同。"
+      "reason_en": "Retain separately: payment details and bank-login credentials grant different access permissions."
     },
     {
       "key_a": "unlink_social_accounts",
@@ -154,7 +154,7 @@
       "text_a": "Avoid linking dating profiles to personal social-media accounts.",
       "text_b": "Avoid accepting social-media friend requests from people you do not know.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：不连接个人账号与不接受陌生人好友请求是不同接触渠道。"
+      "reason_en": "Retain separately: not linking personal accounts and not accepting strangers' friend requests address different contact channels."
     },
     {
       "key_a": "report_consumer_agency",
@@ -163,7 +163,7 @@
       "text_a": "Report suspected romance fraud through the official consumer-protection reporting service.",
       "text_b": "Report romance fraud involving US mail to the Postal Inspection Service.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：消费者投诉与邮件诈骗专门举报渠道不同。"
+      "reason_en": "Retain separately: consumer complaints and mail-fraud-specific reporting use different channels."
     },
     {
       "key_a": "isolation_warning",
@@ -172,7 +172,7 @@
       "text_a": "Recognize attempts to separate you from friends and family as warning signs.",
       "text_b": "Warn friends and family about the scam approach you encountered.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：识别被孤立与主动提醒亲友不是同一行动。"
+      "reason_en": "Retain separately: recognizing isolation and proactively alerting friends or relatives are not the same action."
     },
     {
       "key_a": "cross_platform_check",
@@ -181,7 +181,7 @@
       "text_a": "Compare activity across the person's claimed social accounts and mutual connections.",
       "text_b": "Avoid giving a new contact access to all your social accounts and connections.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：核查对方账号与限制对方访问自己的账号，对象和目的不同。"
+      "reason_en": "Retain separately: checking the contact's accounts and restricting their access to one's own accounts have different subjects and purposes."
     },
     {
       "key_a": "report_investment_regulator",
@@ -190,7 +190,7 @@
       "text_a": "Report suspected relationship investment fraud to the relevant securities regulator.",
       "text_b": "Report intimate-image abuse to the hosting platform and, where applicable, the relevant specialist regulator.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：投资诈骗监管举报与私密影像移除报告，机构及处理对象不同。"
+      "reason_en": "Retain separately: regulatory reports of investment fraud and requests to remove intimate images involve different authorities and subject matter."
     },
     {
       "key_a": "no_money_unmet",
@@ -199,7 +199,7 @@
       "text_a": "Do not send money, gifts or gift-card codes to an online-only romantic contact, including through an intermediary.",
       "text_b": "Contact the gift-card issuer promptly about codes supplied to a scammer.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：事前拒绝付款与已交出代码后联系发行方，阶段和行动不同。"
+      "reason_en": "Retain separately: declining payment beforehand and contacting an issuer after disclosing codes involve different stages and actions."
     },
     {
       "key_a": "different_profile_photo",
@@ -208,7 +208,7 @@
       "text_a": "Use dating photographs that are not reused on your public social profiles.",
       "text_b": "Limit children's identifying details and photographs in dating profiles and early chats.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：个人照片关联风险与保护子女身份信息，保护对象不同。"
+      "reason_en": "Retain separately: personal-photo linkage risks and protection of children's identifying information concern different protected subjects."
     },
     {
       "key_a": "card_dispute",
@@ -217,7 +217,7 @@
       "text_a": "Notify the card issuer of a scam charge and request a refund.",
       "text_b": "Also notify the store that sold you the gift card used in the scam.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：银行卡发行方的扣款争议与向礼品卡销售商报告，支付工具和受理方不同。"
+      "reason_en": "Retain separately: disputing charges with a bank-card issuer and reporting to a gift-card retailer concern different payment instruments and recipients."
     },
     {
       "key_a": "stop_further_payments",
@@ -226,7 +226,7 @@
       "text_a": "Stop sending additional funds when a relationship investment scam is suspected.",
       "text_b": "Report suspected relationship investment fraud to the relevant securities regulator.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：停止追加付款与向监管机构举报是两个行动。"
+      "reason_en": "Retain separately: stopping further payments and reporting to a regulator are two actions."
     },
     {
       "key_a": "recovery_upfront_fee",
@@ -235,7 +235,7 @@
       "text_a": "Reject advance-payment demands from purported fund-recovery services.",
       "text_b": "Reject social-media accounts claiming to be IC3 investigators or offering IC3 fund recovery.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：恢复服务预付费陷阱与假冒 IC3 社交账号，识别线索不同，后者无需出现收费。"
+      "reason_en": "Retain separately: advance-fee recovery scams and impersonated IC3 social-media accounts have different warning cues; the latter need not involve a fee."
     },
     {
       "key_a": "support_without_police",
@@ -244,7 +244,7 @@
       "text_a": "Seek victim support even if you have not reported the fraud to police.",
       "text_b": "Consider help from police or victim-support workers when explanations are not getting through.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：受害者获得支持的资格与亲友引入可信第三方的沟通方式不同。"
+      "reason_en": "Retain separately: eligibility for victim support and a friend or relative's introduction of a trusted third party are different communication issues."
     },
     {
       "key_a": "no_loan_for_contact",
@@ -253,7 +253,7 @@
       "text_a": "Refuse to borrow money for an online romantic contact.",
       "text_b": "Refuse requests to open bank accounts or companies for an online contact.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：不借债与不开账户或公司，不是同一财务行为。"
+      "reason_en": "Retain separately: avoiding debt and avoiding opening accounts or companies are different financial actions."
     },
     {
       "key_a": "support_without_police",
@@ -262,7 +262,7 @@
       "text_a": "Seek victim support even if you have not reported the fraud to police.",
       "text_b": "Seek confidential support for your own distress while helping a victim.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：受害者支持与支持者自身心理支持的接受者不同。"
+      "reason_en": "Retain separately: victim support and psychological support for supporters have different recipients."
     },
     {
       "key_a": "unique_passwords",
@@ -271,7 +271,7 @@
       "text_a": "Use strong, unique account passwords, such as long random-word passphrases rather than familiar quotations.",
       "text_b": "Use a password manager to generate and retain strong account passwords.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：密码质量原则与使用密码管理器的具体管理工具不同。"
+      "reason_en": "Retain separately: password-quality principles and use of a password manager concern a principle and a specific management tool."
     },
     {
       "key_a": "no_secret_disclosures",
@@ -280,7 +280,7 @@
       "text_a": "Avoid revealing secrets that could become blackmail material.",
       "text_b": "Do not answer blackmail by sending money or more intimate material.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：事前避免泄露秘密与遭勒索后拒绝服从，阶段不同。"
+      "reason_en": "Retain separately: preventing disclosure of secrets and refusing demands after blackmail involve different stages."
     },
     {
       "key_a": "no_money_mule",
@@ -289,7 +289,7 @@
       "text_a": "Refuse to move another person's money through your accounts.",
       "text_b": "Refuse requests to open bank accounts or companies for an online contact.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：使用已有账户转移资金与替别人建立新账户或公司，行为不同。"
+      "reason_en": "Retain separately: transferring money through an existing account and opening a new account or company for someone else are different actions."
     },
     {
       "key_a": "no_accounts_for_contact",
@@ -298,7 +298,7 @@
       "text_a": "Refuse requests to open bank accounts or companies for an online contact.",
       "text_b": "Refuse instructions to mislead your bank about a payment.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：替人开账户与向银行谎报交易目的，行为不同。"
+      "reason_en": "Retain separately: opening accounts for others and misrepresenting a transaction's purpose to a bank are different actions."
     },
     {
       "key_a": "authenticate_links",
@@ -307,7 +307,7 @@
       "text_a": "Independently verify investment and crypto-service links, including account-approval messages and links supplied by familiar contacts.",
       "text_b": "Avoid payment links or QR codes supplied by unknown contacts.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：独立核查投资服务地址与拒绝陌生人支付二维码，触发的操作不同。"
+      "reason_en": "Retain separately: independently verifying an investment-service address and rejecting a stranger's payment QR code concern different operations."
     },
     {
       "key_a": "wallet_allowance_review",
@@ -316,7 +316,7 @@
       "text_a": "Review wallet token allowances for unexpected third-party access.",
       "text_b": "Revoke token approvals if a suspect has obtained access to your crypto wallet.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：检查钱包授权与撤销已发现的危险授权，是核查与补救两个步骤。"
+      "reason_en": "Retain separately: checking wallet permissions and revoking identified dangerous permissions are assessment and remediation steps."
     },
     {
       "key_a": "report_consumer_agency",
@@ -325,7 +325,7 @@
       "text_a": "Report suspected romance fraud through the official consumer-protection reporting service.",
       "text_b": "Report suspected relationship investment fraud to the relevant securities regulator.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：一般消费诈骗投诉与投资专门监管举报的渠道不同。"
+      "reason_en": "Retain separately: general consumer-fraud complaints and investment-specific regulatory reports use different channels."
     },
     {
       "key_a": "unlink_social_accounts",
@@ -334,7 +334,7 @@
       "text_a": "Avoid linking dating profiles to personal social-media accounts.",
       "text_b": "Avoid giving a new contact access to all your social accounts and connections.",
       "decision": "merge",
-      "reason_zh": "合并：均为限制约会关系与个人社交账号网络的连接与可见范围。"
+      "reason_en": "Merge: both restrict connections and visibility between a dating relationship and personal social-account networks."
     },
     {
       "key_a": "fake_bank_access",
@@ -343,7 +343,7 @@
       "text_a": "Do not mistake supplied banking credentials and a displayed balance for proof of genuine wealth.",
       "text_b": "Do not treat an apparently genuine check or available deposited balance as proof the payment is final.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：对方展示虚假账户余额与收款支票尚未最终结算，是不同资金证明风险。"
+      "reason_en": "Retain separately: fabricated account balances displayed by a contact and a deposited check that has not finally cleared are different financial-evidence risks."
     },
     {
       "key_a": "unlink_social_accounts",
@@ -352,7 +352,7 @@
       "text_a": "Avoid linking dating profiles to personal social-media accounts.",
       "text_b": "Reject social-media accounts claiming to be IC3 investigators or offering IC3 fund recovery.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：共有 social 字词但一个是隐私设置，一个是假机关识别，无语义重复。"
+      "reason_en": "Retain separately: both contain the word social, but one concerns privacy settings and the other identification of fake authorities; they are not semantic duplicates."
     },
     {
       "key_a": "no_money_unmet",
@@ -361,7 +361,7 @@
       "text_a": "Do not send money, gifts or gift-card codes to an online-only romantic contact, including through an intermediary.",
       "text_b": "Refuse to borrow money for an online romantic contact.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：不转出款物与不为关系负债有不同财务约束；后者涵盖新增债务。"
+      "reason_en": "Retain separately: refusing transfers of money or goods and avoiding relationship-related debt impose different financial boundaries; the latter includes new borrowing."
     },
     {
       "key_a": "supporter_learn_recovery",
@@ -370,7 +370,7 @@
       "text_a": "Learn about romance-fraud recovery before advising a loved one.",
       "text_b": "Distinguish trust in your loved one from trust in the unverified stranger.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：支持者学习恢复知识与表达对亲友而非陌生人的信任，是不同沟通任务。"
+      "reason_en": "Retain separately: supporters learning about recovery and expressing trust in a friend or relative rather than a stranger are different communication tasks."
     },
     {
       "key_a": "support_without_police",
@@ -379,24 +379,24 @@
       "text_a": "Seek victim support even if you have not reported the fraud to police.",
       "text_b": "Consider a support group with others who have experienced romance fraud.",
       "decision": "retain_distinct",
-      "reason_zh": "保留：无需报警即可求助的资格说明与选择同伴支持小组，是不同信息。"
+      "reason_en": "Retain separately: eligibility for help without a police report and selection of a peer-support group convey different information."
     }
   ],
   "aliases": [
     {
       "from": "search_name_scam",
       "to": "search_job_scam",
-      "reason_zh": "合并：均为用人物信息加诈骗词检索已报道骗局；姓名和职业作为查询变体保留。"
+      "reason_en": "Merge: both search for reported scams using personal details plus scam-related terms; name and occupation remain query variants."
     },
     {
       "from": "no_replacement_mule_account",
       "to": "no_accounts_for_contact",
-      "reason_zh": "合并：补开账户仍是为可疑联系人开立账户，银行已警告作为具体条件保留。"
+      "reason_en": "Merge: opening a replacement account still means opening an account for a suspicious contact; a prior bank warning is retained as a specific condition."
     },
     {
       "from": "limit_cross_account_access",
       "to": "unlink_social_accounts",
-      "reason_zh": "合并：均为限制约会关系与个人社交账号网络的连接与可见范围。"
+      "reason_en": "Merge: both restrict connections and visibility between a dating relationship and personal social-account networks."
     }
   ],
   "overrides": {

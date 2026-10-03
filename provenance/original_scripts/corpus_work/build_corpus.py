@@ -30,8 +30,8 @@ decisions['aliases'].extend(final_review['aliases'])
 decisions['lexical_pair_review'] = {'pairs_reviewed':len(final_review['pairs']), 'additional_merges':len(final_review['aliases']), 'method':final_review['candidate_generation']}
 overrides.update(final_review['overrides'])
 aliases = {x['from']: x['to'] for x in decisions['aliases']}
-alias_reasons = {x['from']: x['reason_zh'] for x in decisions['aliases']}
-excluded = {x['key']: x['reason_zh'] for x in decisions['excluded_keys']}
+alias_reasons = {x['from']: x['reason_en'] for x in decisions['aliases']}
+excluded = {x['key']: x['reason_en'] for x in decisions['excluded_keys']}
 
 def root(key):
     seen = set()
@@ -41,15 +41,15 @@ def root(key):
         key = aliases[key]
     return key
 
-SCOPE_LABEL = {'core':'关系防骗与账户防护','dating_safety':'交友平台与会面安全','investment':'关系投资／加密骗局','sextortion':'私密影像与勒索','recovery':'受骗后止损与恢复','support':'亲友／支持者建议'}
-STAGE_LABEL = {'prevention':'事前防护','suspicion':'出现可疑线索','recovery':'暴露或受骗后','support':'支持他人'}
+SCOPE_LABEL = {'core':'Relationship-scam prevention and account protection','dating_safety':'Dating-platform and meeting safety','investment':'Relationship-based investment and cryptocurrency scams','sextortion':'Intimate images and blackmail','recovery':'Post-scam harm limitation and recovery','support':'Advice for friends, relatives and supporters'}
+STAGE_LABEL = {'prevention':'Prevention','suspicion':'Suspicious cues','recovery':'After exposure or fraud','support':'Supporting others'}
 SCOPE_GATE = {
- 'core':'在线建立或维持关系时，按该建议明确提及的线索或请求适用。',
- 'dating_safety':'涉及交友平台设置或安排线下会面；仅采用与当前活动匹配的步骤。',
- 'investment':'仅在出现投资、交易平台、加密货币或钱包操作时适用。',
- 'sextortion':'仅在私密影像、性勒索、影像传播风险或相关威胁出现时适用。',
- 'recovery':'仅在已付款、已泄露信息、账号受侵或发现受骗后，按实际损害适用。',
- 'support':'建议对象是正在帮助他人的亲友或支持人员，不直接冒充给潜在受骗者的建议。'
+ 'core':'Applicable when establishing or maintaining an online relationship, according to the cues or requests explicitly mentioned in the advice.',
+ 'dating_safety':'Applicable to dating-platform settings or arranging an in-person meeting; use only steps matching the current activity.',
+ 'investment':'Applicable only when investment, trading-platform, cryptocurrency, or wallet activity is present.',
+ 'sextortion':'Applicable only when intimate images, sextortion, image-distribution risks, or related threats are present.',
+ 'recovery':'Applicable after payment, information disclosure, account compromise, or discovery of fraud, according to the actual harm.',
+ 'support':'The advice addresses friends, relatives, or support workers helping another person; it is not presented directly as advice to a potential victim.'
 }
 DIRECT = {'S001','S002','S003','S004','S005','S007','S008','S009','S010','S012','S013','S014','S015','S016','S017','S018','S020','S021','S026','S029','S031','S032','S040','S043','S044'}
 DATING = {'S006','S019','S022'}
@@ -86,20 +86,20 @@ def applicability(key, members):
     scopes = sorted({r['scope'] for r in members})
     result = [SCOPE_GATE[x] for x in scopes]
     if key.startswith('military_'):
-        result.append('仅涉及对方自称美国军人的情形；不以职业或国籍本身判定诈骗。')
+        result.append('Applicable only when the contact claims to be a member of the US military; occupation or nationality alone is not evidence of fraud.')
     if key.startswith('hash_') or key in {'adult_hash_prevention','save_hash_case_pin'}:
-        result.append('工具操作以 StopNCII 当时的资格和平台覆盖为限；相关影像须满足成人服务条件。')
+        result.append('Use of StopNCII is subject to its eligibility requirements and platform coverage at the time; the images must meet adult-service conditions.')
     if key == 'image_age_service':
-        result.append('成年人求助时如影像摄于未满 18 岁，转介未成年人影像服务；不要求重新获取影像。')
+        result.append('If an adult seeks help for images taken before age 18, refer to the appropriate service for images of minors; do not require reacquiring the images.')
     if key in {'keep_payee_check','payee_mismatch_stop','card_channel_controls','temporary_card_freeze','personal_payment_limits'}:
-        result.append('仅当用户的银行或支付渠道提供该功能时；姓名匹配或额度控制不保证交易安全。')
+        result.append('Applicable only if the user\'s bank or payment channel provides this feature; name matching and payment limits do not guarantee transaction safety.')
     if any(r['stage']=='recovery' for r in members):
-        result.append('涉及追回款项时只表示可以请求处理，不承诺退款或追回成功。')
+        result.append('Advice about recovering funds means that assistance may be requested, not that a refund or recovery is guaranteed.')
     if key in {'elder_reporting_assistance','official_report_address','fake_ic3_social','avoid_report_search_ads','mail_fraud_report'}:
-        result.append('所述机构渠道属于美国；其他地区应使用相应本地渠道。')
+        result.append('The agency channels described are US-specific; use the corresponding local channels in other jurisdictions.')
     if key in {'scam_call_filter','anti_scam_helpline','no_identity_account_lending'}:
-        result.append('所述 ScamShield 或 Singpass 服务属于新加坡。')
-    result.append('国家、机构与工具名称须结合来源地区使用；此栏是研究用途适用性标注。')
+        result.append('The ScamShield or Singpass services mentioned are Singapore-specific.')
+    result.append('Country, agency, and tool names must be interpreted in the source jurisdiction; this field is a research applicability annotation.')
     return result
 
 clean = []
@@ -112,7 +112,7 @@ for key,members in groups.items():
       'language':'en','text_status':'AI-normalized source-grounded paraphrase; not verbatim',
       'scopes':sorted({r['scope'] for r in members}), 'stages':sorted({r['stage'] for r in members}),
       'topics':sorted({r['topic'] for r in members}),
-      'applicability_zh':applicability(key,members),
+      'applicability_en':applicability(key,members),
       'source_contexts':sorted({r['source_context'] for r in members}),
       'source_ids':sid,'source_jurisdictions':sorted({source_by_id[x]['jurisdiction'] for x in sid}),
       'candidate_ids':[r['candidate_id'] for r in members], 'candidate_count':len(members),
@@ -129,12 +129,12 @@ for key,members in groups.items():
         is_rep = r['candidate_id']==representative['candidate_id']
         log.append({'candidate_id':r['candidate_id'],'source_id':r['source_id'],'input_key':r['key'],
           'advice_id':aid,'final_key':key,'disposition':'representative' if is_rep else 'merged',
-          'reason_zh':'；'.join(changes) if changes else ('该语义组的代表候选。' if is_rep else '行动及适用条件与同组代表实质相同；保留独立出处。'),
+          'reason_en':'; '.join(changes) if changes else ('Representative candidate for this semantic group.' if is_rep else 'The action and applicability conditions are materially the same as the group representative; independent provenance is retained.'),
           'canonical_wording_revised':key in overrides})
 for r in candidate_rows:
     if r['key'] in excluded:
         log.append({'candidate_id':r['candidate_id'],'source_id':r['source_id'],'input_key':r['key'],
-                    'advice_id':None,'final_key':None,'disposition':'excluded','reason_zh':excluded[r['key']]})
+                    'advice_id':None,'final_key':None,'disposition':'excluded','reason_en':excluded[r['key']]})
 log.sort(key=lambda x:x['candidate_id'])
 
 # A lexical candidate list supports a second semantic inspection. Scores are NOT semantic distances.
@@ -154,13 +154,13 @@ pairs.sort(key=lambda x:-x['score'])
 (WORK/'similarity_review_candidates.json').write_text(json.dumps(pairs,ensure_ascii=False,indent=2),encoding='utf-8')
 
 screening=[
- {'source_id':'S015','item':'Geographic stereotyping in military impersonation warning','decision':'not_extracted','reason_zh':'不把来自某地区本身当作诈骗证据。'},
- {'source_id':'S015','item':'Requested customized photograph as an identity check','decision':'not_extracted','reason_zh':'未将定制照片当作可靠的身份保证；采用其他来源的有限证据表述。'},
- {'source_id':'S022','item':'Alcohol and sexual-health advice','decision':'not_extracted','reason_zh':'超出本项目恋爱诈骗及其直接风险范围。'},
- {'url':'https://bumble.com/the-buzz/bumble-protect-information','item':'Platform privacy marketing page','decision':'source_not_included','reason_zh':'读取部分主要是企业做法介绍，没有提取适用的个人行动建议。'},
- {'url':'https://www.barclays.co.uk/help/security-fraud/latest-scams/','item':'Bank page with incomplete retrieval','decision':'source_not_included','reason_zh':'未用不完整页面作为最终条目依据。'},
- {'source_id':'S034','item':'Deletion of original image after hashing','decision':'not_extracted','reason_zh':'避免在未处理报案证据需求时诱导删除原始材料。'},
- {'source_id':'S026','item':'loss_limit_plan','decision':'candidate_excluded','reason_zh':excluded['loss_limit_plan']}
+ {'source_id':'S015','item':'Geographic stereotyping in military impersonation warning','decision':'not_extracted','reason_en':'A person\'s geographic origin is not treated as evidence of fraud.'},
+ {'source_id':'S015','item':'Requested customized photograph as an identity check','decision':'not_extracted','reason_en':'Customized photographs are not treated as reliable identity guarantees; limited-evidence wording from other sources is used.'},
+ {'source_id':'S022','item':'Alcohol and sexual-health advice','decision':'not_extracted','reason_en':'Outside the scope of romance scams and their direct risks in this project.'},
+ {'url':'https://bumble.com/the-buzz/bumble-protect-information','item':'Platform privacy marketing page','decision':'source_not_included','reason_en':'The retrieved material mainly described company practices; no applicable individual action advice was extracted.'},
+ {'url':'https://www.barclays.co.uk/help/security-fraud/latest-scams/','item':'Bank page with incomplete retrieval','decision':'source_not_included','reason_en':'An incompletely retrieved page was not used as the basis for final entries.'},
+ {'source_id':'S034','item':'Deletion of original image after hashing','decision':'not_extracted','reason_en':'Avoid encouraging deletion of original material before addressing evidence needs for reporting.'},
+ {'source_id':'S026','item':'loss_limit_plan','decision':'candidate_excluded','reason_en':excluded['loss_limit_plan']}
 ]
 normalized=[re.sub(r'\W+',' ',r['text'].lower()).strip() for r in candidate_rows]
 report={
@@ -197,62 +197,25 @@ write_json('pair_review_log.json',final_review)
 write_json('screening_notes.json',screening)
 write_json('collection_report.json',report)
 
-readme=f'''# Online romance scam advice corpus
+readme=f"""# Online romance scam advice corpus
 
-完成日期：{DATE}。本语料仅用于 AI 知识准备；实验中的人类建议仍由问卷参与者独立撰写。
+Completed: {DATE}. This corpus supports AI knowledge preparation only. Human participants write their own advice independently.
 
-| 项目 | 已完成结果 |
+| Measure | Count |
 |---|---:|
-| 有条目纳入的公开来源页面 | {len(source_rows)} |
-| 来源网站域名 | {report['publisher_domains']} |
-| 来源支持的候选提取 | {len(candidate_rows)} |
-| 语义合并的候选 | {report['merged_candidates']} |
-| 排除的候选 | {report['excluded_candidates']} |
-| 最终建议单元 | **{len(clean)}** |
+| Public source pages | {len(source_rows)} |
+| Publisher domains | {report['publisher_domains']} |
+| Candidate paraphrases | {len(candidate_rows)} |
+| Retained advice units | {len(clean)} |
+| Merged candidates | {report['merged_candidates']} |
+| Excluded candidates | {report['excluded_candidates']} |
 
-数量关系：{len(candidate_rows)} = {len(clean)} 条保留 + {report['merged_candidates']} 条合并 + {report['excluded_candidates']} 条排除。网页筛选中未提取的内容另记于 screening_notes.json，不混入候选数量。
+The advice consists of AI-normalized English paraphrases grounded in public sources, not verbatim quotations. Each record retains provenance, applicability conditions and source locators. Collection was purposive, not a systematic review. Semantic decisions were AI-assisted, without independent double coding or expert validation. The script replays those recorded decisions; lexical scores are not semantic accuracy measures.
 
-## 查看与文件
+Use advice only when its conditions are met. Investment, intimate-image abuse and post-loss recovery advice are conditional; supporter advice requires the appropriate recipient role. Agencies and tools depend on jurisdiction. Source access dates are not publication dates. Full source pages are not distributed.
 
-双击 **corpus_browser.html** 即可离线搜索英文建议、筛选范围／阶段、展开适用条件并点击原始来源。
-
-| 文件 | 内容 |
-|---|---|
-| advice_corpus.jsonl | 去重后主语料；每行一个 JSON 对象，含适用条件和全部出处 |
-| candidate_extractions.jsonl | 合并前的规范化提取；不是网页原文 |
-| sources.json | 来源机构、网址、地区、访问日期、检索状态及内部证据摘要值 |
-| deduplication_log.jsonl | 每条候选 → 保留条目／合并／排除的去向 |
-| semantic_decisions.json | 跨初始类别的合并依据及容易混淆但保留的区别 |
-| pair_review_log.json | 42 组词项相似候选的语义复核决定及理由 |
-| collection_report.json | 数量、范围、来源类型和方法信息 |
-| screening_notes.json | 未纳入内容及排除理由 |
-
-## 内容与范围
-
-**建议正文是 AI 根据已读取公开来源进行的英文规范化转述，并非逐字摘录，也不标为原作者原话。** 原始网页链接和定位随条目保存。部分原文是风险警示，在提取时转化为可识别线索的建议；适用条件栏是研究用途标注。
-
-| 范围 | 条目数（可交叉） | 使用条件 |
-|---|---:|---|
-'''+''.join(f"| {SCOPE_LABEL[s]} | {n} | {SCOPE_GATE[s]} |\n" for s,n in report['scope_counts_nonexclusive'].items())+f'''
-其中 {report['retained_with_romance_specific_source']} 条至少有一个直接涉及恋爱／关系诈骗的来源，{report['retained_adjacent_only']} 条仅由相关诈骗机制、账户防护或恢复支持来源支持。其余涉及交友安全或多种来源背景。**不能把全部 {len(clean)} 条直接当成八个主情境都适用的建议。** 尤其投资、勒索和事后恢复内容，只在对应事实出现时调用；亲友支持内容要匹配建议接收者的角色。
-
-“条”指行动或风险线索单元，不等于同样数量的独立大策略。一般原则与需要不同受理方或操作流程的条件性建议可能并存。例如，联系支付机构是一般原则，礼品卡发行方、银行转账和支付应用的止损步骤有各自条件。
-
-## 收集与语义去重方法
-
-| 步骤 | 实际做法 |
-|---|---|
-| 收集 | 目的性检索并阅读政府、警方、监管机构、受害者支持机构、大学、银行和平台公开页面；补充恋爱诈骗相关的投资、隐私和止损机制。不是系统综述或全部网站普查。 |
-| 提取 | 将行动／风险线索写成短英文转述，保留机构、URL、读取日期及页面定位。不收集评论区个案或参与者个人资料。 |
-| 初步归组 | 阅读上下文，按行动、对象、适用条件分配语义类别；同义说法跨来源合并。 |
-| 二次语义检查 | 比较初始类别，明确合并 {len(aliases)} 个类别；换措辞、资料字段或示例不单独增加数量。另用词项相似候选列表辅助检查，不把词项分数当成语义准确率。 |
-| 保留信息 | 合并不删除出处；候选表和去向日志可追溯到各来源。 |
-| 复核性质 | 本轮由 AI 辅助判断完成；没有双人独立编码、专家效度检验或人工一致性系数，不声称已实现客观零重复。 |
-
-来源地区包括美国、英国、澳大利亚、新西兰和新加坡等。机构、报告渠道和工具条件按来源地区使用；访问日期不代表文章发布日期。少数页面使用检索工具返回的实质正文，直接打开失败的情况已标记。完整页面的内部读取证据保留在项目 corpus_work/evidence 中，未打包复制网站全文。
-
-这是一份可供 AI 检索／后续数据准备的知识语料，不是情景—标准回答训练对，也未调用 API 训练模型。正式研究中应如实披露规范化转述与 AI 辅助去重过程。
-'''
+The advice_corpus.jsonl file contains retained units; candidate_extractions.jsonl and deduplication_log.jsonl trace candidates to retained, merged or excluded decisions. sources.json records provenance, semantic_decisions.json and pair_review_log.json explain review decisions, and collection_report.json and screening_notes.json describe scope and exclusions. The historical browser export is optional. The corpus is neither scenario-answer training pairs nor evidence of completed fine-tuning.
+"""
 (OUT/'README.md').write_text(readme,encoding='utf-8')
 
 payload=json.dumps({'advice':clean,'sources':source_rows,'report':report,'scopeLabels':SCOPE_LABEL,'stageLabels':STAGE_LABEL},ensure_ascii=False).replace('<','\\u003c')

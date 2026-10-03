@@ -50,8 +50,8 @@ def replay_corpus(root):
     overrides = read(folder / 'canonical_overrides.json')
     overrides.update(read(folder / 'final_review_adjustments.json')['overrides'])
     aliases = {x['from']:x['to'] for x in decisions['aliases']}
-    reasons = {x['from']:x['reason_zh'] for x in decisions['aliases']}
-    excluded = {x['key']:x['reason_zh'] for x in decisions['excluded_keys']}
+    reasons = {x['from']:x['reason_en'] for x in decisions['aliases']}
+    excluded = {x['key']:x['reason_en'] for x in decisions['excluded_keys']}
     def canonical(key):
         seen = set()
         while key in aliases:
@@ -72,7 +72,7 @@ def replay_corpus(root):
         corpus.append(dict(advice_id=aid, concept_key=key, advice_en=overrides.get(key, representative['text']),
             language='en', text_status='AI-normalized source-grounded paraphrase; not verbatim',
             scopes=sorted({r['scope'] for r in members}), stages=sorted({r['stage'] for r in members}),
-            topics=sorted({r['topic'] for r in members}), applicability_zh=applicability(key, members),
+            topics=sorted({r['topic'] for r in members}), applicability_en=applicability(key, members),
             source_contexts=sorted({r['source_context'] for r in members}), source_ids=source_ids,
             source_jurisdictions=sorted({sources[s]['jurisdiction'] for s in source_ids}),
             candidate_ids=[r['candidate_id'] for r in members], candidate_count=len(members),
@@ -87,12 +87,12 @@ def replay_corpus(root):
             is_rep = r['candidate_id'] == representative['candidate_id']
             log.append(dict(candidate_id=r['candidate_id'], source_id=r['source_id'], input_key=r['key'],
                 advice_id=aid, final_key=key, disposition='representative' if is_rep else 'merged',
-                reason_zh='；'.join(changes) if changes else ('该语义组的代表候选。' if is_rep else '行动及适用条件与同组代表实质相同；保留独立出处。'),
+                reason_en='; '.join(changes) if changes else ('Representative candidate for this semantic group.' if is_rep else 'The action and applicability conditions are materially the same as the group representative; independent provenance is retained.'),
                 canonical_wording_revised=key in overrides))
     for r in candidates:
         if r['key'] in excluded:
             log.append(dict(candidate_id=r['candidate_id'], source_id=r['source_id'], input_key=r['key'],
-                advice_id=None, final_key=None, disposition='excluded', reason_zh=excluded[r['key']]))
+                advice_id=None, final_key=None, disposition='excluded', reason_en=excluded[r['key']]))
     log.sort(key=lambda x:x['candidate_id'])
     check(corpus == lines(folder / 'advice_corpus.jsonl'), 'Replayed corpus differs from archived 288')
     check(log == lines(folder / 'deduplication_log.jsonl'), 'Replayed merge log differs')
